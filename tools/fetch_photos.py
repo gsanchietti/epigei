@@ -35,8 +35,23 @@ UA_BASE = "https://universoalpino.com/"
 UA_LICENSE = "Per gentile concessione di universoalpino.com"
 UA_MAX = 3
 UA_MIN_SIZE = 350  # skip icons and small images
-# Images that are not usable as photos: painted plates, scenes where the mushroom is hard to see.
-UA_SKIP = {"tavolacaesarea.jpg", "tavolamuscaria.jpg", "tavolaphalloides.jpg", "cantharellus-lutescens_ng3.jpg"}
+# Original image file names never to use, from any source. Better no photo than a wrong one.
+PHOTO_SKIP = {
+    # painted plates, scenes where the mushroom is hard to see
+    "tavolacaesarea.jpg", "tavolamuscaria.jpg", "tavolaphalloides.jpg", "cantharellus-lutescens_ng3.jpg",
+    # species doubtful from the photo (review 2026-11-12)
+    "Hypholoma fasciculare MF.jpg",  # grey gills, looks like H. capnoides
+    "cantharellus_cibarius-e1538899931925.jpg",  # looks like a Lactarius
+    "cantalute.jpg",  # looks like Craterellus tubaeformis
+    "boletus_reticulatus_2_280.jpg",  # looks like B. edulis
+    "amaphal1.jpg",  # brown cap, yellowish stem: not a typical A. phalloides
+    # other photographers' watermarks on universoalpino.com: author and permission unclear
+    "boletus_edulis-copia.jpg", "craterellus_cornucopioides_2_413-e1541317908360.jpg",
+    "russula_virescens_2.jpg", "russulaaureax.jpg", "amanita_phalloides_2_435-e1542024141700.jpg",
+    "macrolepiota-procera-e1541425893700.jpg", "amanitaverna10.jpg", "amanita-verna1.jpg",
+    "amanita-ovoidea-3-e1542016447509.jpg", "t_felleus_a.jpg", "russulavirescens.jpg",
+    "morchella_esculenta_v_umbrina_jox_090406.jpg",
+}
 USER_AGENT = "quiz-photo-fetcher/1.0"
 MAX_WIDTH = 900
 DELAY = 1.0  # seconds between requests, to be polite
@@ -106,22 +121,32 @@ def read_species():
     return out
 
 
+def skipped(url):
+    return urllib.parse.unquote(url.rsplit("/", 1)[1]) in PHOTO_SKIP
+
+
 def muse_index():
+    """Species name -> list of page ids (a name can have several pages, one per variety)."""
     page = get(MUSE_BASE + "galleria.asp")
     index = {}
     for sp, label in re.findall(r'<a href="galleria_sp\.asp\?sp=(\d+)"[^>]*>(.*?)</a>', page, re.S):
         name = clean(label)
         if name:
-            index[name.lower()] = sp
+            index.setdefault(name.lower(), []).append(sp)
     return index
 
 
-def muse_photo(sp):
+def muse_photo(sp, name):
     url = f"{MUSE_BASE}galleria_sp.asp?sp={sp}"
     page = get(url)
+    # Skip pages about another variety, form or subspecies, e.g. "Amanita phalloides var. alba".
+    title = re.search(r"<h3><b>.*?</h3>", page, re.S)
+    variety = re.search(r"\b(?:var|f|subsp)\.(?:&nbsp;|\s)*<b>([^<]+)</b>", title.group(0)) if title else None
+    if variety and variety.group(1).strip() != name.split()[-1]:
+        return None
     img = re.search(r"<img src='(foto_1200/[^']+)'", page)
     author = re.search(r"fa-camera'></i>(.*?)<i", page, re.S)
-    if not img or not author:
+    if not img or not author or skipped(img.group(1)):
         return None
     return {
         "image_url": MUSE_BASE + img.group(1),
@@ -171,7 +196,7 @@ def ua_photos(slug_):
             continue
         if re.search(r"-\d{5,}_(?:640|960|1280|1920)", orig.group(1)):  # stock photo (e.g. Pixabay)
             continue
-        if orig.group(1).rsplit("/", 1)[1] in UA_SKIP:
+        if skipped(orig.group(1)):
             continue
         if any(p["image_url"] == orig.group(1) for p in photos):
             continue
@@ -196,14 +221,17 @@ def save_image(url, path):
 def find_photos(s, index_getter):
     found = []
     if s["muse"]:
-        sp = index_getter().get(s["muse"].lower())
-        photo = muse_photo(sp) if sp else None
-        if photo:
-            found.append(photo)
+        for sp in index_getter().get(s["muse"].lower(), []):
+            photo = muse_photo(sp, s["muse"])
+            if photo:
+                found.append(photo)
+                break
     if s["universoalpino"]:
         found += ua_photos(s["universoalpino"])
     if not found:
         photo = commons_photo(s["name"])
+        if photo and skipped(photo["image_url"]):
+            photo = None
         if photo:
             found.append(photo)
     return found
@@ -230,9 +258,13 @@ def main():
             s["photos"] = old
             continue
         photos = find_photos(s, index_getter)
+        for old_file in PHOTO_DIR.glob(f"{s['id']}*.jpg"):
+            if re.fullmatch(re.escape(s["id"]) + r"(-\d+)?\.jpg", old_file.name):
+                old_file.unlink()
         for n, photo in enumerate(photos):
             name = f"{s['id']}.jpg" if n == 0 else f"{s['id']}-{n + 1}.jpg"
-            save_image(photo.pop("image_url"), PHOTO_DIR / name)
+            photo["original"] = photo.pop("image_url")
+            save_image(photo["original"], PHOTO_DIR / name)
             photo["file"] = f"photos/{name}"
         s["photos"] = photos
         if not photos:

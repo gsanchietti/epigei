@@ -453,22 +453,27 @@ function speciesLabel(sp) {
   return sp.common ? `${sp.name} (${sp.common})` : sp.name;
 }
 
-// Find the species a question is about: a species named in the question text,
-// otherwise the main species of the question's section.
+// Find the species a question is about: a species named in the question text
+// (scientific or common name), otherwise the species of a single-species section.
+// Sections about a whole genus get no default photo: a photo of one species can
+// contradict a statement about others (e.g. a Suillus with a ring).
+const GENUS_SECTIONS = new Set(["RL", "Lg", "Sg", "Xb", "Ag", "Hy"]);
 let SPECIES_BY_NAME = [];
 const TOPIC_SPECIES = {};
 function indexSpecies() {
   SPECIES_BY_NAME = [];
   for (const sp of SPECIES) {
-    for (const n of [sp.name, ...sp.aliases]) SPECIES_BY_NAME.push([n.toLowerCase(), sp]);
+    const common = sp.common ? sp.common.split(",").map((c) => c.trim()) : [];
+    for (const n of [sp.name, ...sp.aliases, ...common]) SPECIES_BY_NAME.push([n.toLowerCase(), sp]);
     if (sp.topic && !TOPIC_SPECIES[sp.topic]) TOPIC_SPECIES[sp.topic] = sp;
   }
   SPECIES_BY_NAME.sort((a, b) => b[0].length - a[0].length);
 }
 function speciesForQuestion(q) {
   const text = q.text.toLowerCase();
+  if (text.includes("var.")) return null; // about a variety we have no photo of
   for (const [n, sp] of SPECIES_BY_NAME) if (text.includes(n)) return sp;
-  return q.topic !== "RL" ? TOPIC_SPECIES[q.topic] || null : null; // RL mixes two genera
+  return GENUS_SECTIONS.has(q.topic) ? null : TOPIC_SPECIES[q.topic] || null;
 }
 
 function questionItem(q) {
@@ -541,7 +546,7 @@ function photoFigure(photo) {
 
 function speciesReveal(sp, photo) {
   return el("div", { class: "reveal" },
-    el("div", { class: "reveal-name" }, el("em", {}, sp.name), sp.common ? ` · ${sp.common}` : ""),
+    el("div", { class: "reveal-name" }, "Nella foto: ", el("em", {}, sp.name), sp.common ? ` · ${sp.common}` : ""),
     el("div", { class: "reveal-badge" }, edibilityBadge(sp), sp.note ? el("span", { class: "muted" }, sp.note) : null),
     el("a", { href: photo.url, target: "_blank", rel: "noopener" }, `Scheda sul sito ${photo.source} ↗`));
 }
