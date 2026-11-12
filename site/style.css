@@ -264,3 +264,31 @@ footer a { color: inherit; }
 .res-site { font-size: 0.8rem; color: #3f6b45; font-weight: 600; }
 .res-text { font-size: 0.9rem; color: var(--muted); }
 .resources li::before { content: none; display: none; }
+
+/* Desktop: use the extra width. Phones are unaffected. */
+@media (min-width: 960px) {
+  main { max-width: 1120px; padding: 24px 32px 48px; }
+  .topbar { margin: -24px -32px 24px; padding-left: 32px; padding-right: 32px; }
+
+  /* Home */
+  .home-hero { margin: -24px -32px 28px; padding-top: 56px; border-radius: 0 0 36px 36px; }
+  .home-hero h1 { font-size: 3rem; }
+  .home-hero p { max-width: 44ch; font-size: 1.15rem; }
+  .hero-art { width: 140px; }
+  .modes { grid-template-columns: 1fr 1fr; gap: 16px; }
+  .mode { padding: 20px; }
+  .home-info { display: grid; grid-template-columns: 1fr 1.3fr; gap: 16px; align-items: start; }
+  .home-info .resources { margin-top: 0; }
+  .resources ul { grid-template-columns: 1fr 1fr; column-gap: 24px; }
+
+  /* Text-only pages: comfortable reading width */
+  main[data-view="exam"] > :not(.topbar),
+  main[data-view="practice"] > :not(.topbar):not(.has-photo) { max-width: 760px; margin-left: auto; margin-right: auto; }
+
+  /* Photo questions: photo left, question right */
+  .question.has-photo { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); align-items: stretch; }
+  .question.has-photo .photo { display: flex; flex-direction: column; justify-content: center; }
+  .question.has-photo .photo img { max-height: 72vh; flex: 1; }
+  .question.has-photo > section { padding: 24px; align-self: center; }
+  main[data-view="practice"] > button.block { max-width: 420px; margin-left: auto; }
+}

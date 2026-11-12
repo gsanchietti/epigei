@@ -253,6 +253,7 @@ function modeCard(href, cls, icon, title, text) {
 
 function renderHome() {
   stopTimer();
+  app.dataset.view = "home";
   show(
     el("header", { class: "home-hero" },
       svg(LANDSCAPE_SVG),
@@ -273,6 +274,7 @@ function renderHome() {
         "Le domande ufficiali sulle singole specie, con la foto del fungo."),
       modeCard("#riconosci", "mode-recognize", EYE_SVG, "Riconosci il fungo",
         `Guarda la foto e scegli la specie giusta tra tre. ${SPECIES.length} specie citate nel PDF.`)),
+    el("div", { class: "home-info" },
     el("section", { class: "how" },
       el("h2", {}, "Come funziona il test"),
       el("ol", {},
@@ -285,7 +287,7 @@ function renderHome() {
         el("li", {},
           el("a", { href: url, target: "_blank", rel: "noopener" }, title + " ↗"),
           el("span", { class: "res-site" }, site),
-          el("span", { class: "res-text" }, text))))),
+          el("span", { class: "res-text" }, text)))))),
     footer());
   window.scrollTo(0, 0);
 }
@@ -311,6 +313,7 @@ function answeredCount() {
 }
 
 function renderExam() {
+  app.dataset.view = "exam";
   const timer = el("span", { class: "timer", role: "timer", "aria-label": "Tempo rimasto" });
   const progress = el("span", { class: "progress" });
 
@@ -379,6 +382,7 @@ function finishExam(timeUp) {
 }
 
 function renderResult() {
+  app.dataset.view = "exam";
   const errors = exam.questions.filter((q, i) => exam.answers[i] !== q.answer).length;
   const unanswered = exam.answers.filter((a) => a === null).length;
   const passed = errors <= MAX_ERRORS;
@@ -563,6 +567,7 @@ function preload(item) {
 
 function renderPractice(mode) {
   stopTimer();
+  app.dataset.view = "practice";
   const cfg = PRACTICE_MODES[mode];
   const state = practice[mode];
   // Never show an already answered question again (e.g. after going home and back).
@@ -621,7 +626,7 @@ function renderPractice(mode) {
     el("div", { class: "topbar" },
       el("button", { type: "button", class: "pseudo", onclick: () => { location.hash = ""; } }, "← Home"),
       score),
-    el("article", { class: "card question" },
+    el("article", { class: "card question" + (item.photo ? " has-photo" : "") },
       item.photo ? photoFigure(item.photo) : null,
       el("section", {},
         el("div", { class: "meta" }, item.meta),
