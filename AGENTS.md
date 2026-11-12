@@ -63,6 +63,9 @@ Keep these in mind if the PDF is replaced or the script changes:
 
 ## Verifying changes
 
+- Before publishing any content change (questions, photos, species, edibility, credits), run the `reviewing-quiz-content` skill (`.claude/skills/reviewing-quiz-content/SKILL.md`). It reports only; fix what it finds, then run it again.
+- Photos that must never be used, from any source, are listed in `PHOTO_SKIP` in `tools/fetch_photos.py`, with the reason. Better no photo than a wrong one.
+
 - After regenerating the data, the script must exit 0, and its per-topic counts must match the table on page 1 of the PDF.
 - For any change to answers or scoring, check the result against the PDF itself, not against `questions.json`. Read the grids on pages 44–46, for example with `pdftoppm -png -r 100 -f 44 -l 46`.
 - For UI changes, drive the real page in headless Chrome (`/usr/bin/google-chrome`, for example with puppeteer-core installed in a scratch directory). Check:
