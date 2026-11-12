@@ -1,0 +1,98 @@
+# Species named in domande2024.pdf, used by tools/fetch_photos.py.
+# Columns (tab separated):
+#   name       scientific name shown in the app
+#   topic      PDF section prefix (Be, Am, ... ) or "-" for look-alikes named in groups B/C
+#   common     Italian common name (from the PDF when it gives one), or "-"
+#   muse       name used by the MUSE Bresadola gallery when different, "-" if same, "none" to use Wikimedia
+#   lookalike  comma-separated names of species easily confused with this one (used as wrong answers)
+#   aliases    other names used in the PDF text, comma separated, or "-"
+#   edibility  commestibile | non commestibile | sospetto | tossico | mortale (PDF answers, then standard Italian classification)
+#   note       short safety note shown with the badge, or "-"
+#   universoalpino  page slug on universoalpino.com with more photos (used with permission), or "-"
+name	topic	common	muse	lookalike	aliases	edibility	note	universoalpino
+Boletus edulis	Be	porcino	-	Tylopilus felleus,Boletus reticulatus,Boletus pinophilus	-	commestibile	-	porcino
+Boletus aereus	Be	porcino nero	-	Boletus edulis,Boletus reticulatus,Rubroboletus satanas	-	commestibile	-	-
+Boletus pinophilus	Be	porcino dei pini	-	Boletus edulis,Boletus aereus,Tylopilus felleus	Boletus pinicola	commestibile	-	porcino-dei-pini
+Boletus reticulatus	Be	porcino estivo	Boletus aestivalis	Boletus edulis,Tylopilus felleus,Boletus aereus	Boletus aestivalis	commestibile	-	porcino-estivo
+Armillaria mellea	Am	chiodino	-	Hypholoma fasciculare,Galerina marginata,Cyclocybe aegerita	-	commestibile	solo dopo cottura prolungata	chiodino
+Amanita caesarea	Ac	ovolo buono	-	Amanita muscaria,Amanita phalloides,Amanita pantherina	-	commestibile	-	i-commestibili
+Cantharellus cibarius	Cc	finferlo, galletto	-	Omphalotus olearius,Cantharellus friesii,Craterellus lutescens	-	commestibile	-	galletto
+Cantharellus friesii	Cc	-	-	Cantharellus cibarius,Cantharellus pallens,Omphalotus olearius	-	commestibile	-	-
+Cantharellus pallens	Cc	-	-	Cantharellus cibarius,Cantharellus friesii,Hydnum repandum	-	commestibile	-	-
+Cantharellus melanoxeros	Cc	-	none	Cantharellus cibarius,Cantharellus pallens,Craterellus lutescens	-	commestibile	-	-
+Craterellus cinereus	Cc	-	-	Craterellus cornucopioides,Craterellus lutescens,Cantharellus melanoxeros	Cantharellus cinereus	commestibile	-	-
+Craterellus lutescens	Cc	finferla	-	Cantharellus cibarius,Craterellus cinereus,Craterellus cornucopioides	-	commestibile	-	finferla
+Craterellus cornucopioides	Cr	trombetta da morto	-	Craterellus cinereus,Craterellus lutescens,Auricularia auricula-judae	Craterellus cornucupioides	commestibile	-	trombetta-dei-morti
+Hydnum repandum	Hr	steccherino dorato	-	Cantharellus pallens,Cantharellus cibarius,Russula delica	-	commestibile	-	steccherino
+Macrolepiota procera	Mp	mazza di tamburo	-	Macrolepiota mastoidea,Lepiota clypeolaria,Amanita pantherina	-	commestibile	si consuma solo il cappello	macrolepiota-procera
+Macrolepiota mastoidea	Mp	-	-	Macrolepiota procera,Lepiota cristata,Lepiota clypeolaria	-	commestibile	-	-
+Russula cyanoxantha	RL	colombina maggiore	-	Russula virescens,Amanita phalloides,Russula emetica	-	commestibile	-	russula-cyanoxantha
+Russula virescens	RL	colombina verde	-	Amanita phalloides,Russula cyanoxantha,Russula aurea	-	commestibile	-	russula-virescens
+Russula aurea	RL	colombina dorata	-	Russula emetica,Russula luteotacta,Russula virescens	Russula aurata	commestibile	-	russula-aurea
+Russula delica	RL	-	-	Lactifluus piperatus,Russula foetens,Hydnum repandum	-	commestibile	-	-
+Lactarius deliciosus	RL	sanguinello	-	Lactarius deterrimus,Lactarius vinosus,Paxillus involutus	-	commestibile	-	lactarius-deliciosus
+Lactarius deterrimus	RL	-	-	Lactarius deliciosus,Lactarius vinosus,Lactifluus piperatus	-	commestibile	-	-
+Lactarius vinosus	RL	-	-	Lactarius deliciosus,Lactarius deterrimus,Russula emetica	-	commestibile	-	-
+Leccinum scabrum	Lg	porcinello	-	Leccinellum lepidum,Tylopilus felleus,Boletus edulis	-	commestibile	-	-
+Leccinellum lepidum	Lg	porcinello	-	Leccinum scabrum,Suillus granulatus,Imleria badia	-	commestibile	-	-
+Suillus granulatus	Sg	-	-	Suillus luteus,Suillus grevillei,Imleria badia	-	commestibile	-	-
+Suillus luteus	Sg	pinarello	-	Suillus granulatus,Suillus grevillei,Leccinellum lepidum	-	commestibile	-	pinarello
+Suillus grevillei	Sg	laricino	-	Suillus luteus,Suillus granulatus,Butyriboletus regius	-	commestibile	-	-
+Imleria badia	Xb	porcino baio	-	Boletus edulis,Suillus granulatus,Cyanoboletus pulverulentus	Xerocomus badius,Boletus badius	commestibile	-	baio
+Marasmius oreades	Mo	gambasecca	-	Clitocybe dealbata,Gymnopus perforans,Mycetinis scorodonius	-	commestibile	-	marasmius-oreades
+Morchella esculenta	Mg	spugnola	-	Gyromitra esculenta,Ramaria formosa,Ramaria aurea	-	commestibile	tossica cruda, solo ben cotta	morchella-esculenta
+Auricularia auricula-judae	Au	orecchio di Giuda	-	Craterellus cornucopioides,Pleurotus ostreatus,Gyromitra esculenta	Auricularia auricola-judae	commestibile	-	-
+Calocybe gambosa	Ca	prugnolo	-	Entoloma sinuatum,Inocybe fastigiata,Clitocybe dealbata	Tricholoma georgii	commestibile	-	-
+Agaricus arvensis	Ag	-	none	Agaricus xanthodermus,Amanita phalloides,Agaricus campestris	-	commestibile	-	-
+Agaricus campestris	Ag	prataiolo	-	Agaricus xanthodermus,Amanita verna,Agaricus arvensis	-	commestibile	-	-
+Agaricus bisporus	Ag	champignon	none	Agaricus campestris,Agaricus bitorquis,Agaricus xanthodermus	-	commestibile	-	-
+Agaricus bitorquis	Ag	-	-	Agaricus bisporus,Agaricus xanthodermus,Agaricus campestris	-	commestibile	-	-
+Agaricus macrosporus	Ag	-	none	Agaricus arvensis,Agaricus xanthodermus,Agaricus bresadolanus	Agaricus crocodilinus	commestibile	-	-
+Agaricus bresadolanus	-	-	-	Agaricus campestris,Agaricus xanthodermus,Agaricus bitorquis	-	tossico	-	-
+Butyriboletus regius	Bu	porcino reale	-	Rubroboletus satanas,Suillellus luridus,Boletus aereus	Boletus regius	commestibile	-	-
+Cuphophyllus pratensis	Cu	-	-	Hygrophorus penarius,Cantharellus pallens,Clitocybe dealbata	Camarophyllus pratensis	commestibile	-	-
+Cyclocybe aegerita	Cl	pioppino	Cyclocybe cylindracea	Armillaria mellea,Hypholoma fasciculare,Galerina marginata	Agrocybe aegerita,Ciclocybe aegerita	commestibile	-	-
+Hygrophorus penarioides	Hy	-	-	Hygrophorus penarius,Hygrophorus russula,Russula delica	-	commestibile	-	-
+Hygrophorus penarius	Hy	-	none	Hygrophorus penarioides,Cuphophyllus pratensis,Russula delica	-	commestibile	-	-
+Hygrophorus russula	Hy	-	-	Hygrophorus penarioides,Lactarius vinosus,Russula emetica	-	commestibile	-	-
+Pleurotus ostreatus	Pl	orecchione	-	Omphalotus olearius,Auricularia auricula-judae,Hypholoma fasciculare	Pleurorus ostreatus	commestibile	-	-
+Tricholoma terreum	Tr	-	-	Tricholoma pardinum,Entoloma sinuatum,Inocybe fastigiata	-	commestibile	-	-
+Amanita phalloides	-	tignosa verdognola	-	Russula virescens,Agaricus campestris,Amanita caesarea	-	mortale	-	amanita-phalloides
+Amanita verna	-	tignosa primaverile	none	Agaricus arvensis,Amanita virosa,Agaricus campestris	-	mortale	-	amanita-verna
+Amanita virosa	-	tignosa bianca	-	Amanita verna,Agaricus arvensis,Macrolepiota mastoidea	-	mortale	-	amanita-virosa
+Amanita muscaria	-	ovolo malefico	-	Amanita caesarea,Amanita pantherina,Russula emetica	-	tossico	-	ovolo-malefico
+Amanita pantherina	-	tignosa bruna	-	Amanita muscaria,Macrolepiota procera,Amanita caesarea	-	tossico	-	amanita-pantherina
+Amanita ovoidea	-	farinaccio	-	Amanita proxima,Amanita caesarea,Amanita verna	-	sospetto	facile confusione con la tossica Amanita proxima	amanita-ovoidea
+Amanita proxima	-	-	-	Amanita ovoidea,Amanita virosa,Amanita verna	-	tossico	-	-
+Galerina marginata	-	-	-	Armillaria mellea,Cyclocybe aegerita,Hypholoma fasciculare	-	mortale	-	-
+Omphalotus olearius	-	fungo dell'olivo	-	Cantharellus cibarius,Pleurotus ostreatus,Armillaria mellea	-	tossico	-	-
+Tricholoma pardinum	-	-	-	Tricholoma terreum,Entoloma sinuatum,Calocybe gambosa	-	tossico	-	-
+Tricholoma equestre	-	-	none	Tricholoma sulphureum,Russula aurea,Tricholoma terreum	-	mortale	-	-
+Tricholoma sulphureum	-	-	-	Tricholoma equestre,Cantharellus cibarius,Russula aurea	-	tossico	-	-
+Tricholoma bresadolanum	-	-	-	Tricholoma terreum,Tricholoma pardinum,Entoloma sinuatum	-	tossico	-	-
+Agaricus xanthodermus	-	-	-	Agaricus campestris,Agaricus arvensis,Agaricus bitorquis	Agaricus xanthoderma	tossico	-	-
+Rubroboletus satanas	-	porcino malefico	-	Butyriboletus regius,Suillellus luridus,Boletus aereus	Boletus satanas	tossico	-	-
+Rubroboletus lupinus	-	-	none	Rubroboletus satanas,Suillellus luridus,Butyriboletus regius	-	tossico	-	-
+Suillellus luridus	-	-	-	Rubroboletus satanas,Cyanoboletus pulverulentus,Boletus reticulatus	Boletus luridus,Suinellus luridus,Suilellis luridus	sospetto	tossico crudo	ferre-2
+Tylopilus felleus	-	porcino del fiele	-	Boletus edulis,Boletus reticulatus,Leccinum scabrum	-	non commestibile	sapore molto amaro	tylopilus-felleus
+Cyanoboletus pulverulentus	-	-	-	Imleria badia,Suillellus luridus,Boletus reticulatus	-	commestibile	-	-
+Clitocybe dealbata	-	-	-	Marasmius oreades,Calocybe gambosa,Infundibulicybe geotropa	-	tossico	-	-
+Infundibulicybe geotropa	-	-	-	Clitocybe dealbata,Calocybe gambosa,Hygrophorus penarius	Clitocybe geotropa	commestibile	-	-
+Cortinarius orellanus	-	-	-	Cantharellus cibarius,Hypholoma fasciculare,Lactarius vinosus	Cortunarius orellanus	mortale	-	-
+Entoloma sinuatum	-	-	-	Calocybe gambosa,Tricholoma terreum,Infundibulicybe geotropa	Entoloma lividum	tossico	-	-
+Gyromitra esculenta	-	falsa spugnola	-	Morchella esculenta,Auricularia auricula-judae,Ramaria formosa	-	mortale	-	-
+Hebeloma sinapizans	-	-	-	Calocybe gambosa,Tricholoma terreum,Entoloma sinuatum	-	tossico	-	-
+Hypholoma fasciculare	-	falso chiodino	-	Armillaria mellea,Cyclocybe aegerita,Galerina marginata	-	tossico	-	-
+Inocybe fastigiata	-	-	Pseudosperma rimosum	Calocybe gambosa,Tricholoma terreum,Hebeloma sinapizans	Inocybe rimosa	tossico	-	-
+Lepiota cristata	-	-	-	Macrolepiota mastoidea,Lepiota clypeolaria,Marasmius oreades	-	tossico	-	-
+Lepiota clypeolaria	-	-	-	Macrolepiota procera,Lepiota cristata,Macrolepiota mastoidea	-	tossico	-	-
+Mycetinis scorodonius	-	-	-	Marasmius oreades,Gymnopus perforans,Clitocybe dealbata	Marasmius scorodonius	commestibile	-	-
+Gymnopus perforans	-	-	none	Marasmius oreades,Mycetinis scorodonius,Mycena pura	Marasmius perforans	non commestibile	-	-
+Mycena pura	-	-	-	Marasmius oreades,Clitocybe dealbata,Lactarius vinosus	-	tossico	-	-
+Paxillus involutus	-	-	-	Lactarius deliciosus,Imleria badia,Hydnum repandum	-	tossico	sindrome paxillica, anche mortale	-
+Ramaria formosa	-	-	-	Ramaria aurea,Morchella esculenta,Cantharellus cibarius	-	tossico	-	-
+Ramaria aurea	-	-	none	Ramaria formosa,Cantharellus cibarius,Craterellus lutescens	-	commestibile	-	-
+Russula emetica	-	colombina rossa	-	Russula aurea,Amanita muscaria,Lactarius vinosus	-	tossico	-	russula-emetica
+Russula foetens	-	-	-	Russula delica,Russula aurea,Lactifluus piperatus	-	tossico	-	-
+Russula luteotacta	-	-	-	Russula emetica,Russula aurea,Russula cyanoxantha	-	tossico	-	-
+Lactifluus piperatus	-	-	-	Russula delica,Lactarius deterrimus,Russula foetens	Lactarius piperatus	non commestibile	-	-

@@ -3,7 +3,6 @@
 const EXAM_SIZE = 30;
 const EXAM_MINUTES = 30;
 const MAX_ERRORS = 3;
-const QUICK_NEXT_SECONDS = 3; // quick mode moves to the next question by itself
 const LETTERS = ["A", "B", "C", "D"];
 
 const GROUPS = {
@@ -42,7 +41,7 @@ const TOPICS = {
 const app = document.getElementById("app");
 let QUESTIONS = [];
 let exam = null; // running or finished exam
-let quick = null; // quick practice session
+let SPECIES = [];
 let timerId = null;
 
 /* ---------- helpers ---------- */
@@ -124,7 +123,15 @@ function examRunning() {
 function footer() {
   return el("footer", {},
     "Domande tratte dall'Allegato B (domande 2024) del test abilitativo per la raccolta dei funghi epigei spontanei. ",
-    "Strumento non ufficiale.");
+    "Strumento non ufficiale.",
+    el("br"),
+    "Foto: ",
+    el("a", { href: "https://www2.muse.it/bresadola/galleria.asp", target: "_blank", rel: "noopener" }, "Gruppo Micologico «G. Bresadola» – MUSE"),
+    ", ",
+    el("a", { href: "https://universoalpino.com/", target: "_blank", rel: "noopener" }, "Universo alpino"),
+    " (per gentile concessione), ",
+    el("a", { href: "https://commons.wikimedia.org/", target: "_blank", rel: "noopener" }, "Wikimedia Commons"),
+    ".");
 }
 
 /* ---------- home ---------- */
@@ -199,6 +206,36 @@ const BOLT_SVG = `
   <path d="M13 2 4 14h7l-1 8 9-12h-7z"/>
 </svg>`;
 
+const CAMERA_SVG = `
+<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M4 7h3l2-3h6l2 3h3a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="4"/>
+</svg>`;
+
+const EYE_SVG = `
+<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>
+</svg>`;
+
+// Reading list on the home page. Always show the source site next to each link.
+const RESOURCES = [
+  ["Glossario dei funghi", "Universo alpino", "https://universoalpino.com/glossario-dei-funghi/",
+    "I termini tecnici (lamelle, volva, anello, imenio…) che compaiono nelle domande."],
+  ["Legge regionale Marche 18/2022", "Regione Marche", "https://contenuti.regione.marche.it/Portals/0/Agricoltura/Funghi/LR_2022_0018_Agg2024.pdf",
+    "La legge in vigore su raccolta e vendita: limiti, orari, abilitazione, sanzioni."],
+  ["Raccolta dei funghi", "Ministero della Salute", "https://www.salute.gov.it/new/it/tema/sistema-di-controllo-della-sicurezza-alimentare/raccolta-dei-funghi/",
+    "Le regole nazionali: quantità, attrezzi vietati, fungo intero, cesto aerato."],
+  ["Funghi, consumiamoli in sicurezza", "Ministero della Salute", "https://www.salute.gov.it/new/it/tema/sistema-di-controllo-della-sicurezza-alimentare/funghi-consumiamoli-sicurezza/",
+    "Le regole per il consumo sicuro e il controllo gratuito del micologo ASL."],
+  ["Funghi commestibili", "Universo alpino", "https://universoalpino.com/commestibili_one/",
+    "Schede delle principali specie commestibili e dei loro sosia pericolosi."],
+  ["Funghi tossici e velenosi", "Universo alpino", "https://universoalpino.com/i-tossici/",
+    "Schede delle specie non commestibili, sospette, tossiche e mortali."],
+  ["Sindromi a lunga latenza", "Associazione Micologica Bresadola", "https://ambbresadola.it/sindromi-a-lunga-latenza/",
+    "Sindrome falloidea e altre intossicazioni gravi: specie, latenza, sintomi."],
+  ["Galleria fotografica", "Gruppo Micologico «G. Bresadola» – MUSE", "https://www2.muse.it/bresadola/galleria.asp",
+    "Foto e note di oltre 1000 specie, per allenare il riconoscimento."],
+];
+
 function modeCard(href, cls, icon, title, text) {
   return el("a", { class: "mode " + cls, href },
     el("span", { class: "mode-icon" }, svg(icon)),
@@ -225,13 +262,24 @@ function renderHome() {
       modeCard("#esame", "mode-exam", TIMER_SVG, "Simulazione esame",
         `${EXAM_SIZE} domande a caso in ${EXAM_MINUTES} minuti, come il test vero.`),
       modeCard("#rapido", "mode-quick", BOLT_SVG, "Allenamento rapido",
-        "Una domanda alla volta, senza tempo: vedi subito se è giusta.")),
+        "Una domanda alla volta, senza tempo: vedi subito se è giusta."),
+      modeCard("#riconosci", "mode-recognize", EYE_SVG, "Riconosci il fungo",
+        `Guarda la foto e scegli la specie giusta tra tre. ${SPECIES.length} specie citate nel PDF.`),
+      modeCard("#foto", "mode-photo", CAMERA_SVG, "Domande con foto",
+        "Le domande ufficiali sulle singole specie, con la foto del fungo.")),
     el("section", { class: "how" },
       el("h2", {}, "Come funziona il test"),
       el("ol", {},
         el("li", {}, el("span", {}, el("strong", {}, `${EXAM_SIZE} quiz`), " a risposta multipla, una sola risposta giusta su tre.")),
         el("li", {}, el("span", {}, el("strong", {}, `${EXAM_MINUTES} minuti`), " per completarli. Le risposte mancanti contano come errori.")),
         el("li", {}, el("span", {}, "Con ", el("strong", {}, `0–${MAX_ERRORS} errori`), " passi alla prova di riconoscimento delle specie.")))),
+    el("section", { class: "how resources" },
+      el("h2", {}, "Risorse da leggere"),
+      el("ul", {}, RESOURCES.map(([title, site, url, text]) =>
+        el("li", {},
+          el("a", { href: url, target: "_blank", rel: "noopener" }, title + " ↗"),
+          el("span", { class: "res-site" }, site),
+          el("span", { class: "res-text" }, text))))),
     footer());
   window.scrollTo(0, 0);
 }
@@ -387,61 +435,170 @@ function renderResult() {
   window.scrollTo(0, 0);
 }
 
-/* ---------- quick practice ---------- */
+/* ---------- practice modes (one question at a time, instant answer) ---------- */
 
-function startQuick() {
-  quick = { deck: shuffle(QUESTIONS), index: 0, correct: 0, done: 0, answeredIndex: -1 };
-  renderQuick();
+const EDIBILITY_LABELS = {
+  commestibile: "Commestibile",
+  "non commestibile": "Non commestibile",
+  sospetto: "Sospetto",
+  tossico: "Tossico",
+  mortale: "Velenoso mortale",
+};
+
+function edibilityBadge(sp) {
+  return el("span", { class: "badge badge-" + sp.edibility.replace(" ", "-") }, EDIBILITY_LABELS[sp.edibility]);
 }
 
-function renderQuick() {
-  stopTimer();
-  // Never show an already answered question again (e.g. after going home and back).
-  if (quick.answeredIndex === quick.index) quick.index++;
-  if (quick.index >= quick.deck.length) {
-    quick.deck = shuffle(QUESTIONS);
-    quick.index = 0;
+function speciesLabel(sp) {
+  return sp.common ? `${sp.name} (${sp.common})` : sp.name;
+}
+
+// Find the species a question is about: a species named in the question text,
+// otherwise the main species of the question's section.
+let SPECIES_BY_NAME = [];
+const TOPIC_SPECIES = {};
+function indexSpecies() {
+  SPECIES_BY_NAME = [];
+  for (const sp of SPECIES) {
+    for (const n of [sp.name, ...sp.aliases]) SPECIES_BY_NAME.push([n.toLowerCase(), sp]);
+    if (sp.topic && !TOPIC_SPECIES[sp.topic]) TOPIC_SPECIES[sp.topic] = sp;
   }
-  const q = quick.deck[quick.index];
+  SPECIES_BY_NAME.sort((a, b) => b[0].length - a[0].length);
+}
+function speciesForQuestion(q) {
+  const text = q.text.toLowerCase();
+  for (const [n, sp] of SPECIES_BY_NAME) if (text.includes(n)) return sp;
+  return q.topic !== "RL" ? TOPIC_SPECIES[q.topic] || null : null; // RL mixes two genera
+}
+
+function questionItem(q) {
+  const sp = speciesForQuestion(q);
+  return {
+    key: q.id,
+    meta: `${q.id} · ${topicLabel(q)}`,
+    text: q.text,
+    options: q.options,
+    answer: q.answer,
+    species: sp,
+    photo: sp ? pickOne(sp.photos) : null,
+  };
+}
+
+function pickOne(list) {
+  return list[Math.floor(Math.random() * list.length)];
+}
+
+function recognitionItem(sp) {
+  const byId = Object.fromEntries(SPECIES.map((s) => [s.id, s]));
+  const wrong = shuffle(sp.lookalikes).map((id) => byId[id]).filter(Boolean).slice(0, 2);
+  for (const other of shuffle(SPECIES)) {
+    if (wrong.length >= 2) break;
+    if (other !== sp && !wrong.includes(other)) wrong.push(other);
+  }
+  const choices = shuffle([sp, ...wrong]);
+  return {
+    key: sp.id,
+    meta: "Riconosci la specie",
+    text: "Che fungo è questo?",
+    options: choices.map(speciesLabel),
+    answer: choices.indexOf(sp),
+    species: sp,
+    photo: pickOne(sp.photos),
+  };
+}
+
+const PRACTICE_MODES = {
+  rapido: {
+    title: "Allenamento rapido",
+    nextSeconds: 3,
+    deck: () => shuffle(QUESTIONS).map(questionItem).map((it) => ({ ...it, photo: null, species: null })),
+  },
+  foto: {
+    title: "Domande con foto",
+    nextSeconds: 5,
+    deck: () => shuffle(QUESTIONS.filter((q) => speciesForQuestion(q))).map(questionItem),
+  },
+  riconosci: {
+    title: "Riconosci il fungo",
+    nextSeconds: 0, // no auto-advance: take the time to look at the photo and the badge
+    deck: () => shuffle(SPECIES).map(recognitionItem),
+  },
+};
+const practice = {}; // session state per mode
+
+function startPractice(mode) {
+  practice[mode] = { deck: PRACTICE_MODES[mode].deck(), index: 0, correct: 0, done: 0, answeredIndex: -1 };
+  renderPractice(mode);
+}
+
+function photoFigure(photo) {
+  return el("figure", { class: "photo" },
+    el("img", { src: photo.file, alt: "Foto del fungo da riconoscere", loading: "eager", decoding: "async" }),
+    el("figcaption", {},
+      "Foto: ", photo.author, " · ",
+      el("a", { href: photo.url, target: "_blank", rel: "noopener" }, photo.source + " ↗")));
+}
+
+function speciesReveal(sp, photo) {
+  return el("div", { class: "reveal" },
+    el("div", { class: "reveal-name" }, el("em", {}, sp.name), sp.common ? ` · ${sp.common}` : ""),
+    el("div", { class: "reveal-badge" }, edibilityBadge(sp), sp.note ? el("span", { class: "muted" }, sp.note) : null),
+    el("a", { href: photo.url, target: "_blank", rel: "noopener" }, `Scheda sul sito ${photo.source} ↗`));
+}
+
+function preload(item) {
+  if (item && item.photo) new Image().src = item.photo.file;
+}
+
+function renderPractice(mode) {
+  stopTimer();
+  const cfg = PRACTICE_MODES[mode];
+  const state = practice[mode];
+  // Never show an already answered question again (e.g. after going home and back).
+  if (state.answeredIndex === state.index) state.index++;
+  if (state.index >= state.deck.length) {
+    state.deck = cfg.deck();
+    state.index = 0;
+  }
+  const item = state.deck[state.index];
+  preload(state.deck[state.index + 1]);
+
   const score = el("span", { class: "progress" });
   const updateScore = () => {
-    score.textContent = quick.done ? `${quick.correct} / ${quick.done} corrette` : "Allenamento rapido";
+    score.textContent = state.done ? `${state.correct} / ${state.done} corrette` : cfg.title;
   };
-
   const feedback = el("div", { class: "feedback", role: "status" });
-  const next = el("button", {
-    type: "button",
-    class: "block",
-    hidden: true,
-    onclick: renderQuick,
-  }, "Prossima →");
+  const revealSlot = el("div");
+  const next = el("button", { type: "button", class: "block", hidden: true, onclick: () => renderPractice(mode) }, "Prossima →");
 
-  const buttons = q.options.map((opt, oi) =>
+  const buttons = item.options.map((opt, oi) =>
     el("button", {
       type: "button",
       class: "pseudo option",
       onclick: () => {
-        const right = oi === q.answer;
-        quick.answeredIndex = quick.index;
-        quick.done++;
-        if (right) quick.correct++;
+        const right = oi === item.answer;
+        state.answeredIndex = state.index;
+        state.done++;
+        if (right) state.correct++;
         buttons.forEach((b, i) => {
           b.disabled = true;
-          if (i === q.answer) b.classList.add("correct");
+          if (i === item.answer) b.classList.add("correct");
           else if (i === oi) b.classList.add("wrong");
         });
         feedback.className = "feedback " + (right ? "ok" : "ko");
-        feedback.textContent = right ? "Giusto!" : `Sbagliato. La risposta corretta è la ${LETTERS[q.answer]}.`;
+        feedback.textContent = right ? "Giusto!" : `Sbagliato. La risposta corretta è la ${LETTERS[item.answer]}.`;
+        if (item.species && item.photo) revealSlot.replaceChildren(speciesReveal(item.species, item.photo));
         next.hidden = false;
         next.focus({ preventScroll: true });
         next.scrollIntoView({ behavior: "smooth", block: "nearest" });
         updateScore();
-        // Auto-advance; the button still skips the wait. stopTimer() on any
-        // navigation cancels it.
-        const nextAt = Date.now() + QUICK_NEXT_SECONDS * 1000;
+        // Auto-advance (when enabled); the button still skips the wait.
+        // stopTimer() on any navigation cancels it.
+        if (!cfg.nextSeconds) return;
+        const nextAt = Date.now() + cfg.nextSeconds * 1000;
         const tick = () => {
           const left = nextAt - Date.now();
-          if (left <= 0) renderQuick();
+          if (left <= 0) renderPractice(mode);
           else next.textContent = `Prossima → (${Math.ceil(left / 1000)})`;
         };
         tick();
@@ -454,12 +611,16 @@ function renderQuick() {
       el("button", { type: "button", class: "pseudo", onclick: () => { location.hash = ""; } }, "← Home"),
       score),
     el("article", { class: "card question" },
+      item.photo ? photoFigure(item.photo) : null,
       el("section", {},
-        el("div", { class: "meta" }, `${q.id} · ${topicLabel(q)}`),
-        el("div", { class: "text" }, q.text),
+        el("div", { class: "meta" }, item.meta),
+        el("div", { class: "text" }, item.text),
         el("div", { class: "options" }, buttons),
-        feedback)),
+        feedback,
+        revealSlot)),
     next,
+    item.photo ? el("p", { class: "disclaimer" },
+      "Foto e indicazioni di commestibilità servono solo per lo studio: non sostituiscono il controllo dell'ispettorato micologico.") : null,
     footer());
   updateScore();
   window.scrollTo(0, 0);
@@ -484,9 +645,9 @@ async function route() {
   if (target === "esame") {
     if (!exam || exam.finished) startExam();
     else renderExam();
-  } else if (target === "rapido") {
-    if (!quick) startQuick();
-    else renderQuick();
+  } else if (PRACTICE_MODES[target]) {
+    if (!practice[target]) startPractice(target);
+    else renderPractice(target);
   } else {
     renderHome();
   }
@@ -500,13 +661,18 @@ window.addEventListener("beforeunload", (e) => {
   }
 });
 
-fetch("questions.json")
-  .then((r) => {
+function getJSON(url) {
+  return fetch(url).then((r) => {
     if (!r.ok) throw new Error(r.status);
     return r.json();
-  })
-  .then((data) => {
-    QUESTIONS = data;
+  });
+}
+
+Promise.all([getJSON("questions.json"), getJSON("species.json")])
+  .then(([questions, species]) => {
+    QUESTIONS = questions;
+    SPECIES = species.filter((sp) => sp.photos && sp.photos.length);
+    indexSpecies();
     route();
   })
   .catch(() => {

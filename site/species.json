@@ -1,0 +1,2429 @@
+[
+ {
+  "id": "boletus-edulis",
+  "name": "Boletus edulis",
+  "topic": "Be",
+  "common": "porcino",
+  "lookalikes": [
+   "tylopilus-felleus",
+   "boletus-reticulatus",
+   "boletus-pinophilus"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=356530",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/boletus-edulis.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/porcino/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/boletus-edulis-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/porcino/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/boletus-edulis-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "boletus-aereus",
+  "name": "Boletus aereus",
+  "topic": "Be",
+  "common": "porcino nero",
+  "lookalikes": [
+   "boletus-edulis",
+   "boletus-reticulatus",
+   "rubroboletus-satanas"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=159002",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/boletus-aereus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "boletus-pinophilus",
+  "name": "Boletus pinophilus",
+  "topic": "Be",
+  "common": "porcino dei pini",
+  "lookalikes": [
+   "boletus-edulis",
+   "boletus-aereus",
+   "tylopilus-felleus"
+  ],
+  "aliases": [
+   "Boletus pinicola"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=309751",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/boletus-pinophilus.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/porcino-dei-pini/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/boletus-pinophilus-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/porcino-dei-pini/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/boletus-pinophilus-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "boletus-reticulatus",
+  "name": "Boletus reticulatus",
+  "topic": "Be",
+  "common": "porcino estivo",
+  "lookalikes": [
+   "boletus-edulis",
+   "tylopilus-felleus",
+   "boletus-aereus"
+  ],
+  "aliases": [
+   "Boletus aestivalis"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=172910",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/boletus-reticulatus.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/porcino-estivo/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/boletus-reticulatus-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/porcino-estivo/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/boletus-reticulatus-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/porcino-estivo/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/boletus-reticulatus-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "armillaria-mellea",
+  "name": "Armillaria mellea",
+  "topic": "Am",
+  "common": "chiodino",
+  "lookalikes": [
+   "hypholoma-fasciculare",
+   "galerina-marginata",
+   "cyclocybe-aegerita"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "solo dopo cottura prolungata",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=190066",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/armillaria-mellea.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amanita-caesarea",
+  "name": "Amanita caesarea",
+  "topic": "Ac",
+  "common": "ovolo buono",
+  "lookalikes": [
+   "amanita-muscaria",
+   "amanita-phalloides",
+   "amanita-pantherina"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=208468",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/amanita-caesarea.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/i-commestibili/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-caesarea-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/i-commestibili/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-caesarea-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/i-commestibili/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-caesarea-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cantharellus-cibarius",
+  "name": "Cantharellus cibarius",
+  "topic": "Cc",
+  "common": "finferlo, galletto",
+  "lookalikes": [
+   "omphalotus-olearius",
+   "cantharellus-friesii",
+   "craterellus-lutescens"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=200345",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/cantharellus-cibarius.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/galletto/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/cantharellus-cibarius-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/galletto/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/cantharellus-cibarius-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/galletto/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/cantharellus-cibarius-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cantharellus-friesii",
+  "name": "Cantharellus friesii",
+  "topic": "Cc",
+  "common": "",
+  "lookalikes": [
+   "cantharellus-cibarius",
+   "cantharellus-pallens",
+   "omphalotus-olearius"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=204760",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/cantharellus-friesii.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cantharellus-pallens",
+  "name": "Cantharellus pallens",
+  "topic": "Cc",
+  "common": "",
+  "lookalikes": [
+   "cantharellus-cibarius",
+   "cantharellus-friesii",
+   "hydnum-repandum"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=327488",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/cantharellus-pallens.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cantharellus-melanoxeros",
+  "name": "Cantharellus melanoxeros",
+  "topic": "Cc",
+  "common": "",
+  "lookalikes": [
+   "cantharellus-cibarius",
+   "cantharellus-pallens",
+   "craterellus-lutescens"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Irene Andersson (irenea), Mushroom Observer",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:2009-09-30_Cantharellus_melanoxeros_29533_mod.jpg",
+    "license": "CC BY-SA 3.0",
+    "file": "photos/cantharellus-melanoxeros.jpg"
+   }
+  ]
+ },
+ {
+  "id": "craterellus-cinereus",
+  "name": "Craterellus cinereus",
+  "topic": "Cc",
+  "common": "",
+  "lookalikes": [
+   "craterellus-cornucopioides",
+   "craterellus-lutescens",
+   "cantharellus-melanoxeros"
+  ],
+  "aliases": [
+   "Cantharellus cinereus"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=357303",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/craterellus-cinereus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "craterellus-lutescens",
+  "name": "Craterellus lutescens",
+  "topic": "Cc",
+  "common": "finferla",
+  "lookalikes": [
+   "cantharellus-cibarius",
+   "craterellus-cinereus",
+   "craterellus-cornucopioides"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=184644",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/craterellus-lutescens.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/finferla/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/craterellus-lutescens-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/finferla/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/craterellus-lutescens-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "craterellus-cornucopioides",
+  "name": "Craterellus cornucopioides",
+  "topic": "Cr",
+  "common": "trombetta da morto",
+  "lookalikes": [
+   "craterellus-cinereus",
+   "craterellus-lutescens",
+   "auricularia-auricula-judae"
+  ],
+  "aliases": [
+   "Craterellus cornucupioides"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=153130",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/craterellus-cornucopioides.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/trombetta-dei-morti/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/craterellus-cornucopioides-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/trombetta-dei-morti/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/craterellus-cornucopioides-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/trombetta-dei-morti/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/craterellus-cornucopioides-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hydnum-repandum",
+  "name": "Hydnum repandum",
+  "topic": "Hr",
+  "common": "steccherino dorato",
+  "lookalikes": [
+   "cantharellus-pallens",
+   "cantharellus-cibarius",
+   "russula-delica"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=225014",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/hydnum-repandum.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/steccherino/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/hydnum-repandum-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/steccherino/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/hydnum-repandum-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "macrolepiota-procera",
+  "name": "Macrolepiota procera",
+  "topic": "Mp",
+  "common": "mazza di tamburo",
+  "lookalikes": [
+   "macrolepiota-mastoidea",
+   "lepiota-clypeolaria",
+   "amanita-pantherina"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "si consuma solo il cappello",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=287857",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/macrolepiota-procera.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/macrolepiota-procera/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/macrolepiota-procera-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/macrolepiota-procera/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/macrolepiota-procera-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/macrolepiota-procera/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/macrolepiota-procera-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "macrolepiota-mastoidea",
+  "name": "Macrolepiota mastoidea",
+  "topic": "Mp",
+  "common": "",
+  "lookalikes": [
+   "macrolepiota-procera",
+   "lepiota-cristata",
+   "lepiota-clypeolaria"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=299971",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/macrolepiota-mastoidea.jpg"
+   }
+  ]
+ },
+ {
+  "id": "russula-cyanoxantha",
+  "name": "Russula cyanoxantha",
+  "topic": "RL",
+  "common": "colombina maggiore",
+  "lookalikes": [
+   "russula-virescens",
+   "amanita-phalloides",
+   "russula-emetica"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=190250",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/russula-cyanoxantha.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/russula-cyanoxantha/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/russula-cyanoxantha-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/russula-cyanoxantha/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/russula-cyanoxantha-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "russula-virescens",
+  "name": "Russula virescens",
+  "topic": "RL",
+  "common": "colombina verde",
+  "lookalikes": [
+   "amanita-phalloides",
+   "russula-cyanoxantha",
+   "russula-aurea"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=203449",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/russula-virescens.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/russula-virescens/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/russula-virescens-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/russula-virescens/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/russula-virescens-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "russula-aurea",
+  "name": "Russula aurea",
+  "topic": "RL",
+  "common": "colombina dorata",
+  "lookalikes": [
+   "russula-emetica",
+   "russula-luteotacta",
+   "russula-virescens"
+  ],
+  "aliases": [
+   "Russula aurata"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=156423",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/russula-aurea.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/russula-aurea/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/russula-aurea-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/russula-aurea/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/russula-aurea-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "russula-delica",
+  "name": "Russula delica",
+  "topic": "RL",
+  "common": "",
+  "lookalikes": [
+   "lactifluus-piperatus",
+   "russula-foetens",
+   "hydnum-repandum"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=184527",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/russula-delica.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lactarius-deliciosus",
+  "name": "Lactarius deliciosus",
+  "topic": "RL",
+  "common": "sanguinello",
+  "lookalikes": [
+   "lactarius-deterrimus",
+   "lactarius-vinosus",
+   "paxillus-involutus"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=224737",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/lactarius-deliciosus.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/lactarius-deliciosus/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/lactarius-deliciosus-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/lactarius-deliciosus/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/lactarius-deliciosus-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/lactarius-deliciosus/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/lactarius-deliciosus-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lactarius-deterrimus",
+  "name": "Lactarius deterrimus",
+  "topic": "RL",
+  "common": "",
+  "lookalikes": [
+   "lactarius-deliciosus",
+   "lactarius-vinosus",
+   "lactifluus-piperatus"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=332881",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/lactarius-deterrimus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lactarius-vinosus",
+  "name": "Lactarius vinosus",
+  "topic": "RL",
+  "common": "",
+  "lookalikes": [
+   "lactarius-deliciosus",
+   "lactarius-deterrimus",
+   "russula-emetica"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=646478",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/lactarius-vinosus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "leccinum-scabrum",
+  "name": "Leccinum scabrum",
+  "topic": "Lg",
+  "common": "porcinello",
+  "lookalikes": [
+   "leccinellum-lepidum",
+   "tylopilus-felleus",
+   "boletus-edulis"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=100712",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/leccinum-scabrum.jpg"
+   }
+  ]
+ },
+ {
+  "id": "leccinellum-lepidum",
+  "name": "Leccinellum lepidum",
+  "topic": "Lg",
+  "common": "porcinello",
+  "lookalikes": [
+   "leccinum-scabrum",
+   "suillus-granulatus",
+   "imleria-badia"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=486593",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/leccinellum-lepidum.jpg"
+   }
+  ]
+ },
+ {
+  "id": "suillus-granulatus",
+  "name": "Suillus granulatus",
+  "topic": "Sg",
+  "common": "",
+  "lookalikes": [
+   "suillus-luteus",
+   "suillus-grevillei",
+   "imleria-badia"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=291277",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/suillus-granulatus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "suillus-luteus",
+  "name": "Suillus luteus",
+  "topic": "Sg",
+  "common": "pinarello",
+  "lookalikes": [
+   "suillus-granulatus",
+   "suillus-grevillei",
+   "leccinellum-lepidum"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=120823",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/suillus-luteus.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/pinarello/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/suillus-luteus-2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "suillus-grevillei",
+  "name": "Suillus grevillei",
+  "topic": "Sg",
+  "common": "laricino",
+  "lookalikes": [
+   "suillus-luteus",
+   "suillus-granulatus",
+   "butyriboletus-regius"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=282928",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/suillus-grevillei.jpg"
+   }
+  ]
+ },
+ {
+  "id": "imleria-badia",
+  "name": "Imleria badia",
+  "topic": "Xb",
+  "common": "porcino baio",
+  "lookalikes": [
+   "boletus-edulis",
+   "suillus-granulatus",
+   "cyanoboletus-pulverulentus"
+  ],
+  "aliases": [
+   "Xerocomus badius",
+   "Boletus badius"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=550569",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/imleria-badia.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/baio/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/imleria-badia-2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "marasmius-oreades",
+  "name": "Marasmius oreades",
+  "topic": "Mo",
+  "common": "gambasecca",
+  "lookalikes": [
+   "clitocybe-dealbata",
+   "gymnopus-perforans",
+   "mycetinis-scorodonius"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=174712",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/marasmius-oreades.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/marasmius-oreades/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/marasmius-oreades-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/marasmius-oreades/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/marasmius-oreades-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/marasmius-oreades/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/marasmius-oreades-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "morchella-esculenta",
+  "name": "Morchella esculenta",
+  "topic": "Mg",
+  "common": "spugnola",
+  "lookalikes": [
+   "gyromitra-esculenta",
+   "ramaria-formosa",
+   "ramaria-aurea"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "tossica cruda, solo ben cotta",
+  "photos": [
+   {
+    "author": "Matteo Lazzari",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=247978",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/morchella-esculenta.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/morchella-esculenta/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/morchella-esculenta-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/morchella-esculenta/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/morchella-esculenta-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/morchella-esculenta/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/morchella-esculenta-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "auricularia-auricula-judae",
+  "name": "Auricularia auricula-judae",
+  "topic": "Au",
+  "common": "orecchio di Giuda",
+  "lookalikes": [
+   "craterellus-cornucopioides",
+   "pleurotus-ostreatus",
+   "gyromitra-esculenta"
+  ],
+  "aliases": [
+   "Auricularia auricola-judae"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=102281",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/auricularia-auricula-judae.jpg"
+   }
+  ]
+ },
+ {
+  "id": "calocybe-gambosa",
+  "name": "Calocybe gambosa",
+  "topic": "Ca",
+  "common": "prugnolo",
+  "lookalikes": [
+   "entoloma-sinuatum",
+   "inocybe-fastigiata",
+   "clitocybe-dealbata"
+  ],
+  "aliases": [
+   "Tricholoma georgii"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=293916",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/calocybe-gambosa.jpg"
+   }
+  ]
+ },
+ {
+  "id": "agaricus-arvensis",
+  "name": "Agaricus arvensis",
+  "topic": "Ag",
+  "common": "",
+  "lookalikes": [
+   "agaricus-xanthodermus",
+   "amanita-phalloides",
+   "agaricus-campestris"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Luridiformis at English Wikipedia",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:A._arvensis_showing_cogwheel.jpg",
+    "license": "CC BY 3.0",
+    "file": "photos/agaricus-arvensis.jpg"
+   }
+  ]
+ },
+ {
+  "id": "agaricus-campestris",
+  "name": "Agaricus campestris",
+  "topic": "Ag",
+  "common": "prataiolo",
+  "lookalikes": [
+   "agaricus-xanthodermus",
+   "amanita-verna",
+   "agaricus-arvensis"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=356498",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/agaricus-campestris.jpg"
+   }
+  ]
+ },
+ {
+  "id": "agaricus-bisporus",
+  "name": "Agaricus bisporus",
+  "topic": "Ag",
+  "common": "champignon",
+  "lookalikes": [
+   "agaricus-campestris",
+   "agaricus-bitorquis",
+   "agaricus-xanthodermus"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "chris_73",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:ChampignonMushroom.jpg",
+    "license": "CC BY-SA 3.0",
+    "file": "photos/agaricus-bisporus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "agaricus-bitorquis",
+  "name": "Agaricus bitorquis",
+  "topic": "Ag",
+  "common": "",
+  "lookalikes": [
+   "agaricus-bisporus",
+   "agaricus-xanthodermus",
+   "agaricus-campestris"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=213898",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/agaricus-bitorquis.jpg"
+   }
+  ]
+ },
+ {
+  "id": "agaricus-macrosporus",
+  "name": "Agaricus macrosporus",
+  "topic": "Ag",
+  "common": "",
+  "lookalikes": [
+   "agaricus-arvensis",
+   "agaricus-xanthodermus",
+   "agaricus-bresadolanus"
+  ],
+  "aliases": [
+   "Agaricus crocodilinus"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Strobilomyces",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Agaricus_macrosporus_20100930w.JPG",
+    "license": "CC BY-SA 3.0",
+    "file": "photos/agaricus-macrosporus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "agaricus-bresadolanus",
+  "name": "Agaricus bresadolanus",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "agaricus-campestris",
+   "agaricus-xanthodermus",
+   "agaricus-bitorquis"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Matteo Lazzari",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=315946",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/agaricus-bresadolanus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "butyriboletus-regius",
+  "name": "Butyriboletus regius",
+  "topic": "Bu",
+  "common": "porcino reale",
+  "lookalikes": [
+   "rubroboletus-satanas",
+   "suillellus-luridus",
+   "boletus-aereus"
+  ],
+  "aliases": [
+   "Boletus regius"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=803323",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/butyriboletus-regius.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cuphophyllus-pratensis",
+  "name": "Cuphophyllus pratensis",
+  "topic": "Cu",
+  "common": "",
+  "lookalikes": [
+   "hygrophorus-penarius",
+   "cantharellus-pallens",
+   "clitocybe-dealbata"
+  ],
+  "aliases": [
+   "Camarophyllus pratensis"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=105223",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/cuphophyllus-pratensis.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cyclocybe-aegerita",
+  "name": "Cyclocybe aegerita",
+  "topic": "Cl",
+  "common": "pioppino",
+  "lookalikes": [
+   "armillaria-mellea",
+   "hypholoma-fasciculare",
+   "galerina-marginata"
+  ],
+  "aliases": [
+   "Agrocybe aegerita",
+   "Ciclocybe aegerita"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Edoardo Gubinelli",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=550605",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/cyclocybe-aegerita.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hygrophorus-penarioides",
+  "name": "Hygrophorus penarioides",
+  "topic": "Hy",
+  "common": "",
+  "lookalikes": [
+   "hygrophorus-penarius",
+   "hygrophorus-russula",
+   "russula-delica"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=510527",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/hygrophorus-penarioides.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hygrophorus-penarius",
+  "name": "Hygrophorus penarius",
+  "topic": "Hy",
+  "common": "",
+  "lookalikes": [
+   "hygrophorus-penarioides",
+   "cuphophyllus-pratensis",
+   "russula-delica"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Archenzo",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Hygrophorus_penarius.JPG",
+    "license": "CC BY-SA 3.0",
+    "file": "photos/hygrophorus-penarius.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hygrophorus-russula",
+  "name": "Hygrophorus russula",
+  "topic": "Hy",
+  "common": "",
+  "lookalikes": [
+   "hygrophorus-penarioides",
+   "lactarius-vinosus",
+   "russula-emetica"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=102423",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/hygrophorus-russula.jpg"
+   }
+  ]
+ },
+ {
+  "id": "pleurotus-ostreatus",
+  "name": "Pleurotus ostreatus",
+  "topic": "Pl",
+  "common": "orecchione",
+  "lookalikes": [
+   "omphalotus-olearius",
+   "auricularia-auricula-judae",
+   "hypholoma-fasciculare"
+  ],
+  "aliases": [
+   "Pleurorus ostreatus"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Donini",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=174220",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/pleurotus-ostreatus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "tricholoma-terreum",
+  "name": "Tricholoma terreum",
+  "topic": "Tr",
+  "common": "",
+  "lookalikes": [
+   "tricholoma-pardinum",
+   "entoloma-sinuatum",
+   "inocybe-fastigiata"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=216171",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/tricholoma-terreum.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amanita-phalloides",
+  "name": "Amanita phalloides",
+  "topic": "",
+  "common": "tignosa verdognola",
+  "lookalikes": [
+   "russula-virescens",
+   "agaricus-campestris",
+   "amanita-caesarea"
+  ],
+  "aliases": [],
+  "edibility": "mortale",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=439321",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/amanita-phalloides.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-phalloides/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-phalloides-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-phalloides/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-phalloides-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-phalloides/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-phalloides-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amanita-verna",
+  "name": "Amanita verna",
+  "topic": "",
+  "common": "tignosa primaverile",
+  "lookalikes": [
+   "agaricus-arvensis",
+   "amanita-virosa",
+   "agaricus-campestris"
+  ],
+  "aliases": [],
+  "edibility": "mortale",
+  "note": "",
+  "photos": [
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-verna/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-verna.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-verna/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-verna-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-verna/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-verna-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amanita-virosa",
+  "name": "Amanita virosa",
+  "topic": "",
+  "common": "tignosa bianca",
+  "lookalikes": [
+   "amanita-verna",
+   "agaricus-arvensis",
+   "macrolepiota-mastoidea"
+  ],
+  "aliases": [],
+  "edibility": "mortale",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=163692",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/amanita-virosa.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-virosa/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-virosa-2.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amanita-muscaria",
+  "name": "Amanita muscaria",
+  "topic": "",
+  "common": "ovolo malefico",
+  "lookalikes": [
+   "amanita-caesarea",
+   "amanita-pantherina",
+   "russula-emetica"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=161267",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/amanita-muscaria.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amanita-pantherina",
+  "name": "Amanita pantherina",
+  "topic": "",
+  "common": "tignosa bruna",
+  "lookalikes": [
+   "amanita-muscaria",
+   "macrolepiota-procera",
+   "amanita-caesarea"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=156565",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/amanita-pantherina.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-pantherina/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-pantherina-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-pantherina/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-pantherina-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amanita-ovoidea",
+  "name": "Amanita ovoidea",
+  "topic": "",
+  "common": "farinaccio",
+  "lookalikes": [
+   "amanita-proxima",
+   "amanita-caesarea",
+   "amanita-verna"
+  ],
+  "aliases": [],
+  "edibility": "sospetto",
+  "note": "facile confusione con la tossica Amanita proxima",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=156329",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/amanita-ovoidea.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-ovoidea/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-ovoidea-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/amanita-ovoidea/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/amanita-ovoidea-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "amanita-proxima",
+  "name": "Amanita proxima",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "amanita-ovoidea",
+   "amanita-virosa",
+   "amanita-verna"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=172017",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/amanita-proxima.jpg"
+   }
+  ]
+ },
+ {
+  "id": "galerina-marginata",
+  "name": "Galerina marginata",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "armillaria-mellea",
+   "cyclocybe-aegerita",
+   "hypholoma-fasciculare"
+  ],
+  "aliases": [],
+  "edibility": "mortale",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=253217",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/galerina-marginata.jpg"
+   }
+  ]
+ },
+ {
+  "id": "omphalotus-olearius",
+  "name": "Omphalotus olearius",
+  "topic": "",
+  "common": "fungo dell'olivo",
+  "lookalikes": [
+   "cantharellus-cibarius",
+   "pleurotus-ostreatus",
+   "armillaria-mellea"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=288943",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/omphalotus-olearius.jpg"
+   }
+  ]
+ },
+ {
+  "id": "tricholoma-pardinum",
+  "name": "Tricholoma pardinum",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "tricholoma-terreum",
+   "entoloma-sinuatum",
+   "calocybe-gambosa"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=356853",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/tricholoma-pardinum.jpg"
+   }
+  ]
+ },
+ {
+  "id": "tricholoma-equestre",
+  "name": "Tricholoma equestre",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "tricholoma-sulphureum",
+   "russula-aurea",
+   "tricholoma-terreum"
+  ],
+  "aliases": [],
+  "edibility": "mortale",
+  "note": "",
+  "photos": [
+   {
+    "author": "Matthias Renner",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Tricholoma_equestre.jpg",
+    "license": "CC BY-SA 3.0",
+    "file": "photos/tricholoma-equestre.jpg"
+   }
+  ]
+ },
+ {
+  "id": "tricholoma-sulphureum",
+  "name": "Tricholoma sulphureum",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "tricholoma-equestre",
+   "cantharellus-cibarius",
+   "russula-aurea"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=227491",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/tricholoma-sulphureum.jpg"
+   }
+  ]
+ },
+ {
+  "id": "tricholoma-bresadolanum",
+  "name": "Tricholoma bresadolanum",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "tricholoma-terreum",
+   "tricholoma-pardinum",
+   "entoloma-sinuatum"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=316427",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/tricholoma-bresadolanum.jpg"
+   }
+  ]
+ },
+ {
+  "id": "agaricus-xanthodermus",
+  "name": "Agaricus xanthodermus",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "agaricus-campestris",
+   "agaricus-arvensis",
+   "agaricus-bitorquis"
+  ],
+  "aliases": [
+   "Agaricus xanthoderma"
+  ],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=155072",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/agaricus-xanthodermus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "rubroboletus-satanas",
+  "name": "Rubroboletus satanas",
+  "topic": "",
+  "common": "porcino malefico",
+  "lookalikes": [
+   "butyriboletus-regius",
+   "suillellus-luridus",
+   "boletus-aereus"
+  ],
+  "aliases": [
+   "Boletus satanas"
+  ],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=809241",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/rubroboletus-satanas.jpg"
+   }
+  ]
+ },
+ {
+  "id": "rubroboletus-lupinus",
+  "name": "Rubroboletus lupinus",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "rubroboletus-satanas",
+   "suillellus-luridus",
+   "butyriboletus-regius"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Bernypisa",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Boletus_lupinus2.jpg",
+    "license": "CC BY-SA 3.0",
+    "file": "photos/rubroboletus-lupinus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "suillellus-luridus",
+  "name": "Suillellus luridus",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "rubroboletus-satanas",
+   "cyanoboletus-pulverulentus",
+   "boletus-reticulatus"
+  ],
+  "aliases": [
+   "Boletus luridus",
+   "Suinellus luridus",
+   "Suilellis luridus"
+  ],
+  "edibility": "sospetto",
+  "note": "tossico crudo",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=102402",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/suillellus-luridus.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/ferre-2/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/suillellus-luridus-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/ferre-2/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/suillellus-luridus-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "tylopilus-felleus",
+  "name": "Tylopilus felleus",
+  "topic": "",
+  "common": "porcino del fiele",
+  "lookalikes": [
+   "boletus-edulis",
+   "boletus-reticulatus",
+   "leccinum-scabrum"
+  ],
+  "aliases": [],
+  "edibility": "non commestibile",
+  "note": "sapore molto amaro",
+  "photos": [
+   {
+    "author": "Fabio Tomaselli",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=122480",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/tylopilus-felleus.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/tylopilus-felleus/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/tylopilus-felleus-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/tylopilus-felleus/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/tylopilus-felleus-3.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cyanoboletus-pulverulentus",
+  "name": "Cyanoboletus pulverulentus",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "imleria-badia",
+   "suillellus-luridus",
+   "boletus-reticulatus"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Federico Calledda",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=550673",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/cyanoboletus-pulverulentus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "clitocybe-dealbata",
+  "name": "Clitocybe dealbata",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "marasmius-oreades",
+   "calocybe-gambosa",
+   "infundibulicybe-geotropa"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=216184",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/clitocybe-dealbata.jpg"
+   }
+  ]
+ },
+ {
+  "id": "infundibulicybe-geotropa",
+  "name": "Infundibulicybe geotropa",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "clitocybe-dealbata",
+   "calocybe-gambosa",
+   "hygrophorus-penarius"
+  ],
+  "aliases": [
+   "Clitocybe geotropa"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=487940",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/infundibulicybe-geotropa.jpg"
+   }
+  ]
+ },
+ {
+  "id": "cortinarius-orellanus",
+  "name": "Cortinarius orellanus",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "cantharellus-cibarius",
+   "hypholoma-fasciculare",
+   "lactarius-vinosus"
+  ],
+  "aliases": [
+   "Cortunarius orellanus"
+  ],
+  "edibility": "mortale",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=158559",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/cortinarius-orellanus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "entoloma-sinuatum",
+  "name": "Entoloma sinuatum",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "calocybe-gambosa",
+   "tricholoma-terreum",
+   "infundibulicybe-geotropa"
+  ],
+  "aliases": [
+   "Entoloma lividum"
+  ],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=224074",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/entoloma-sinuatum.jpg"
+   }
+  ]
+ },
+ {
+  "id": "gyromitra-esculenta",
+  "name": "Gyromitra esculenta",
+  "topic": "",
+  "common": "falsa spugnola",
+  "lookalikes": [
+   "morchella-esculenta",
+   "auricularia-auricula-judae",
+   "ramaria-formosa"
+  ],
+  "aliases": [],
+  "edibility": "mortale",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=236690",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/gyromitra-esculenta.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hebeloma-sinapizans",
+  "name": "Hebeloma sinapizans",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "calocybe-gambosa",
+   "tricholoma-terreum",
+   "entoloma-sinuatum"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=140872",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/hebeloma-sinapizans.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hypholoma-fasciculare",
+  "name": "Hypholoma fasciculare",
+  "topic": "",
+  "common": "falso chiodino",
+  "lookalikes": [
+   "armillaria-mellea",
+   "cyclocybe-aegerita",
+   "galerina-marginata"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=152334",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/hypholoma-fasciculare.jpg"
+   }
+  ]
+ },
+ {
+  "id": "inocybe-fastigiata",
+  "name": "Inocybe fastigiata",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "calocybe-gambosa",
+   "tricholoma-terreum",
+   "hebeloma-sinapizans"
+  ],
+  "aliases": [
+   "Inocybe rimosa"
+  ],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=830693",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/inocybe-fastigiata.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lepiota-cristata",
+  "name": "Lepiota cristata",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "macrolepiota-mastoidea",
+   "lepiota-clypeolaria",
+   "marasmius-oreades"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=220815",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/lepiota-cristata.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lepiota-clypeolaria",
+  "name": "Lepiota clypeolaria",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "macrolepiota-procera",
+   "lepiota-cristata",
+   "macrolepiota-mastoidea"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=216879",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/lepiota-clypeolaria.jpg"
+   }
+  ]
+ },
+ {
+  "id": "mycetinis-scorodonius",
+  "name": "Mycetinis scorodonius",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "marasmius-oreades",
+   "gymnopus-perforans",
+   "clitocybe-dealbata"
+  ],
+  "aliases": [
+   "Marasmius scorodonius"
+  ],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=501417",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/mycetinis-scorodonius.jpg"
+   }
+  ]
+ },
+ {
+  "id": "gymnopus-perforans",
+  "name": "Gymnopus perforans",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "marasmius-oreades",
+   "mycetinis-scorodonius",
+   "mycena-pura"
+  ],
+  "aliases": [
+   "Marasmius perforans"
+  ],
+  "edibility": "non commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Drew Parker (mycotrope), Mushroom Observer",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:2011-07-28_Gymnopus_perforans_(Hoffm.)_Anton%C3%ADn_%26_Noordel_160144.jpg",
+    "license": "CC BY-SA 3.0",
+    "file": "photos/gymnopus-perforans.jpg"
+   }
+  ]
+ },
+ {
+  "id": "mycena-pura",
+  "name": "Mycena pura",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "marasmius-oreades",
+   "clitocybe-dealbata",
+   "lactarius-vinosus"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=188082",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/mycena-pura.jpg"
+   }
+  ]
+ },
+ {
+  "id": "paxillus-involutus",
+  "name": "Paxillus involutus",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "lactarius-deliciosus",
+   "imleria-badia",
+   "hydnum-repandum"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "sindrome paxillica, anche mortale",
+  "photos": [
+   {
+    "author": "Marco Donini",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=191172",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/paxillus-involutus.jpg"
+   }
+  ]
+ },
+ {
+  "id": "ramaria-formosa",
+  "name": "Ramaria formosa",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "ramaria-aurea",
+   "morchella-esculenta",
+   "cantharellus-cibarius"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=355626",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/ramaria-formosa.jpg"
+   }
+  ]
+ },
+ {
+  "id": "ramaria-aurea",
+  "name": "Ramaria aurea",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "ramaria-formosa",
+   "cantharellus-cibarius",
+   "craterellus-lutescens"
+  ],
+  "aliases": [],
+  "edibility": "commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Ramaria_aurea1.JPG : böhringer friedrich derivative work: Ak ccm",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:2012-09-03_Ramaria_aurea_crop.jpg",
+    "license": "CC BY-SA 2.5",
+    "file": "photos/ramaria-aurea.jpg"
+   }
+  ]
+ },
+ {
+  "id": "russula-emetica",
+  "name": "Russula emetica",
+  "topic": "",
+  "common": "colombina rossa",
+  "lookalikes": [
+   "russula-aurea",
+   "amanita-muscaria",
+   "lactarius-vinosus"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=191650",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/russula-emetica.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/russula-emetica/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/russula-emetica-2.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/russula-emetica/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/russula-emetica-3.jpg"
+   },
+   {
+    "author": "universoalpino.com",
+    "source": "Universo alpino",
+    "url": "https://universoalpino.com/russula-emetica/",
+    "license": "Per gentile concessione di universoalpino.com",
+    "file": "photos/russula-emetica-4.jpg"
+   }
+  ]
+ },
+ {
+  "id": "russula-foetens",
+  "name": "Russula foetens",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "russula-delica",
+   "russula-aurea",
+   "lactifluus-piperatus"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=187177",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/russula-foetens.jpg"
+   }
+  ]
+ },
+ {
+  "id": "russula-luteotacta",
+  "name": "Russula luteotacta",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "russula-emetica",
+   "russula-aurea",
+   "russula-cyanoxantha"
+  ],
+  "aliases": [],
+  "edibility": "tossico",
+  "note": "",
+  "photos": [
+   {
+    "author": "Alessandro Valdagni",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=269986",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/russula-luteotacta.jpg"
+   }
+  ]
+ },
+ {
+  "id": "lactifluus-piperatus",
+  "name": "Lactifluus piperatus",
+  "topic": "",
+  "common": "",
+  "lookalikes": [
+   "russula-delica",
+   "lactarius-deterrimus",
+   "russula-foetens"
+  ],
+  "aliases": [
+   "Lactarius piperatus"
+  ],
+  "edibility": "non commestibile",
+  "note": "",
+  "photos": [
+   {
+    "author": "Marco Floriani",
+    "source": "Gruppo Micologico «G. Bresadola» – MUSE",
+    "url": "https://www2.muse.it/bresadola/galleria_sp.asp?sp=431774",
+    "license": "Uso non commerciale citando l'autore",
+    "file": "photos/lactifluus-piperatus.jpg"
+   }
+  ]
+ }
+]
