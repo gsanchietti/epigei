@@ -242,6 +242,19 @@ const RESOURCES = [
     "Foto e note di oltre 1000 specie, per allenare il riconoscimento."],
 ];
 
+const MINI_MUSHROOM_SVG = `
+<svg class="home-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+  <path d="M9 13.4c-.6 3-.7 5.1.5 6.6h5c1.2-1.5 1.1-3.6.5-6.6z" fill="#f3e7cd" stroke="#c9b48a" stroke-width=".8"/>
+  <path d="M2.5 12.2C2.5 7 6.6 4 12 4s9.5 3 9.5 8.2c0 1.1-1 1.5-2 1.2-4.3-1.2-10.7-1.2-15 0-1 .3-2-.1-2-1.2z" fill="#9a5530"/>
+  <path d="M6.5 8.4c1.3-1.8 3.3-2.7 5.5-2.8" stroke="#c98a5e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+</svg>`;
+
+// Top-bar button back to the home page, with the mushroom icon.
+function homeButton(label) {
+  return el("button", { type: "button", class: "pseudo home-button", onclick: () => { location.hash = ""; } },
+    svg(MINI_MUSHROOM_SVG), label);
+}
+
 function modeCard(href, cls, icon, title, text) {
   return el("a", { class: "mode " + cls, href },
     el("span", { class: "mode-icon" }, svg(icon)),
@@ -349,12 +362,11 @@ function renderExam() {
 
   show(
     el("div", { class: "topbar" },
-      el("button", { type: "button", class: "pseudo", onclick: () => { location.hash = ""; } }, "← Esci"),
+      homeButton("Esci"),
       progress,
       timer),
     ...cards,
-    el("button", { type: "button", class: "block", onclick: submitExam }, "Consegna"),
-    footer());
+    el("button", { type: "button", class: "block", onclick: submitExam }, "Consegna"));
 
   stopTimer();
   updateTop();
@@ -422,7 +434,7 @@ function renderResult() {
 
   show(
     el("div", { class: "topbar" },
-      el("button", { type: "button", class: "pseudo", onclick: () => { location.hash = ""; } }, "← Home"),
+      homeButton("Home"),
       el("span", { class: "progress" }, "Risultato")),
     el("article", { class: "card result-head " + (passed ? "pass" : "fail") },
       el("section", {},
@@ -440,8 +452,7 @@ function renderResult() {
       el("button", { type: "button", class: "block", onclick: startExam }, "Nuova simulazione")),
     filter,
     list,
-    el("button", { type: "button", class: "block", onclick: startExam }, "Nuova simulazione"),
-    footer());
+    el("button", { type: "button", class: "block", onclick: startExam }, "Nuova simulazione"));
   window.scrollTo(0, 0);
 }
 
@@ -623,8 +634,9 @@ function renderPractice(mode) {
     }, el("span", { class: "letter" }, LETTERS[oi]), el("span", {}, opt)));
 
   show(
+    svg(LANDSCAPE_SVG.replace('class="hero-bg"', 'class="page-bg"')),
     el("div", { class: "topbar" },
-      el("button", { type: "button", class: "pseudo", onclick: () => { location.hash = ""; } }, "← Home"),
+      homeButton("Home"),
       score),
     el("article", { class: "card question" + (item.photo ? " has-photo" : "") },
       item.photo ? photoFigure(item.photo) : null,
@@ -636,8 +648,7 @@ function renderPractice(mode) {
         revealSlot)),
     next,
     item.photo ? el("p", { class: "disclaimer" },
-      "Foto e indicazioni di commestibilità servono solo per lo studio: non sostituiscono il controllo dell'ispettorato micologico.") : null,
-    footer());
+      "Foto e indicazioni di commestibilità servono solo per lo studio: non sostituiscono il controllo dell'ispettorato micologico.") : null);
   updateScore();
   window.scrollTo(0, 0);
 }
