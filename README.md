@@ -8,7 +8,7 @@ Le domande e le risposte corrette vengono dall'Allegato B, `domande2024.pdf`.
 - **Simulazione esame**: 30 domande a caso, 30 minuti. Si supera con al massimo 3 errori; le domande senza risposta contano come errori. Alla fine mostra il risultato e la correzione.
 - **Allenamento rapido**: una domanda a caso alla volta, con la risposta giusta mostrata subito. Dopo 3 secondi passa da sola alla domanda successiva (oppure tocca "Prossima"). Pensata per il telefono.
 - **Riconosci il fungo**: una foto e tre nomi di specie, scegli quello giusto. Dopo la risposta mostra il nome, il nome comune e se la specie è commestibile, sospetta, tossica o mortale. Le specie sono quelle citate nel PDF, compresi i sosia tossici.
-- **Domande con foto**: le domande ufficiali che riguardano una specie precisa, con la foto di quella specie.
+- **Allenamento rapido (con foto)**: le domande ufficiali che riguardano una specie precisa, con la foto di quella specie.
 
 ## Struttura
 
