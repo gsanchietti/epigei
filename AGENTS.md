@@ -1,0 +1,67 @@
+# AGENTS.md
+
+Static quiz web app for the Italian "funghi epigei spontanei" foraging licence test.
+All questions and correct answers come from `domande2024.pdf` (Allegato B).
+
+## Layout
+
+- `site/` — the whole app, published as-is to GitHub Pages. No build step, no npm, no framework.
+  - `index.html` — shell page and the shared `<dialog id="confirm">`.
+  - `app.js` — all logic: hash routing (`#esame`, `#rapido`, home), exam, quick practice.
+  - `style.css` — a thin layer over Picnic CSS.
+  - `questions.json` — generated data. Never edit it by hand.
+- `tools/extract_questions.py` — builds `site/questions.json` from the PDF.
+- `.github/workflows/pages.yml` — deploys `site/` on every push to `main`.
+
+## Commands
+
+```sh
+# Regenerate questions (needs pdftotext from poppler-utils). Exits non-zero on any problem.
+python3 tools/extract_questions.py domande2024.pdf site/questions.json
+
+# Run locally
+python3 -m http.server 8000 -d site
+
+# Syntax check
+node --check site/app.js
+```
+
+## Rules
+
+- The UI text is in Italian. Code, comments and docs for developers are in English, except `README.md`, which is in Italian.
+- Keep the app dependency-free apart from Picnic CSS, loaded from jsDelivr with a pinned version and an SRI hash (a checksum the browser verifies) in `index.html`. If you change the version, update the hash.
+- Mobile first: large tap targets, no horizontal scroll, sticky top bar.
+- Exam rules come from the PDF. Keep them as constants at the top of `app.js`: 30 questions, 30 minutes, pass with at most 3 errors, unanswered = error.
+- Build DOM with the `el()` helper, which uses `textContent`. Don't use `innerHTML` with question data.
+- Never use `alert`/`confirm`. Use `confirmDialog(text, okLabel)`.
+
+## `questions.json` format
+
+```json
+{"id": "Be11", "group": "B", "topic": "Be", "text": "…", "options": ["…", "…", "…"], "answer": 2}
+```
+
+`answer` is a 0-based index into `options`. `group` is A–E. `topic` is the id prefix. Species sections (Be, Am, Cc…) belong to group B.
+
+## PDF quirks the extractor handles
+
+Keep these in mind if the PDF is replaced or the script changes:
+
+- **Answer grids:** the grids for groups A–E are read left to right. The species grid on the last page lists answers from the highest question number down to 1, right-aligned. The script reverses it.
+- **Cc8:** it is printed twice. The grid only covers the first one, so the second is dropped. The expected total is 523.
+- **Cyclocybe:** the questions are numbered `Cl1`–`Cl7`, but the grid labels them `Cy`.
+- **PL3:** it is printed in upper case and normalized to `Pl3`.
+- **Missing period:** `Mp10` and `Mo5` have no period after the number.
+- **Glued option:** in `Be11` and `RL5`, option A sits on the same line as the question.
+- **Repeated questions:** some questions appear twice with different ids (A1=E4, A2=E5, A7=E10, A8=E11). The exam picker removes duplicates by text and options, so the same question never shows up twice in one test.
+
+## Verifying changes
+
+- After regenerating the data, the script must exit 0, and its per-topic counts must match the table on page 1 of the PDF.
+- For any change to answers or scoring, check the result against the PDF itself, not against `questions.json`. Read the grids on pages 44–46, for example with `pdftoppm -png -r 100 -f 44 -l 46`.
+- For UI changes, drive the real page in headless Chrome (`/usr/bin/google-chrome`, for example with puppeteer-core installed in a scratch directory). Check:
+  - quick mode answers;
+  - exam scoring and the pass/fail verdict;
+  - the timer running out (fake `Date.now` instead of waiting 30 minutes);
+  - leaving an exam mid-way;
+  - that there are no console errors.
