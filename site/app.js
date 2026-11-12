@@ -61,6 +61,12 @@ function el(tag, attrs = {}, ...children) {
   return node;
 }
 
+// Like app.replaceChildren(), but skips null/false children as el() does
+// (replaceChildren would print them as the text "null").
+function show(...children) {
+  app.replaceChildren(...children.flat().filter((c) => c !== null && c !== undefined && c !== false));
+}
+
 function shuffle(list) {
   const a = list.slice();
   for (let i = a.length - 1; i > 0; i--) {
@@ -247,7 +253,7 @@ function modeCard(href, cls, icon, title, text) {
 
 function renderHome() {
   stopTimer();
-  app.replaceChildren(
+  show(
     el("header", { class: "home-hero" },
       svg(LANDSCAPE_SVG),
       el("div", { class: "hero-content" },
@@ -338,7 +344,7 @@ function renderExam() {
         el("div", { class: "options" }, buttons)));
   });
 
-  app.replaceChildren(
+  show(
     el("div", { class: "topbar" },
       el("button", { type: "button", class: "pseudo", onclick: () => { location.hash = ""; } }, "← Esci"),
       progress,
@@ -410,7 +416,7 @@ function renderResult() {
     }),
     el("span", { class: "checkable" }, "Mostra solo gli errori"));
 
-  app.replaceChildren(
+  show(
     el("div", { class: "topbar" },
       el("button", { type: "button", class: "pseudo", onclick: () => { location.hash = ""; } }, "← Home"),
       el("span", { class: "progress" }, "Risultato")),
@@ -611,7 +617,7 @@ function renderPractice(mode) {
       },
     }, el("span", { class: "letter" }, LETTERS[oi]), el("span", {}, opt)));
 
-  app.replaceChildren(
+  show(
     el("div", { class: "topbar" },
       el("button", { type: "button", class: "pseudo", onclick: () => { location.hash = ""; } }, "← Home"),
       score),
