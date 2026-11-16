@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """Extract quiz questions and correct answers from domande2024.pdf.
 
-Usage: python3 tools/extract_questions.py domande2024.pdf site/questions.json
+Usage:
+    python3 tools/extract_questions.py domande2024.pdf site/questions.json site/answers.json
+
+Writes the questions (without answers) to the first JSON file and the answer
+key to the second, as {"A1": "B", ...}: one letter per question id, as printed
+in the PDF grids, in question order.
 Needs `pdftotext` (poppler-utils).
 """
 import json
@@ -123,12 +128,13 @@ def parse_grids(text):
     return answers
 
 
-def main(pdf, out):
+def main(pdf, out_questions, out_answers):
     questions = parse_questions(pdftotext(pdf, layout=False))
     answers = parse_grids(pdftotext(pdf, layout=True))
     problems = []
     seen = set()
     result = []
+    key = {}
     for q in questions:
         if q["id"] in seen:
             # The PDF prints Cc8 twice; the answer grid only covers the first.
@@ -148,8 +154,8 @@ def main(pdf, out):
             "topic": q["prefix"],
             "text": re.sub(r"\s+", " ", q["text"]).strip(),
             "options": [re.sub(r"\s+", " ", v).strip() for _, v in sorted(q["options"].items())],
-            "answer": "ABCD".index(ans) if ans else None,
         })
+        key[q["id"]] = ans
     for k in answers:
         if k not in seen:
             problems.append(f"answer {k} has no question")
@@ -159,10 +165,14 @@ def main(pdf, out):
     print("total", len(result), counts, file=sys.stderr)
     for p in problems:
         print("PROBLEM", p, file=sys.stderr)
-    with open(out, "w", encoding="utf-8") as f:
+    with open(out_questions, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=1)
+    with open(out_answers, "w", encoding="utf-8") as f:
+        json.dump(key, f, ensure_ascii=False, indent=1)
     return 1 if problems else 0
 
 
 if __name__ == "__main__":
-    sys.exit(main(*sys.argv[1:3]))
+    if len(sys.argv) != 4:
+        sys.exit(__doc__)
+    sys.exit(main(*sys.argv[1:4]))

@@ -5,17 +5,21 @@ Le domande e le risposte corrette vengono dall'Allegato B, `domande2024.pdf`.
 
 ## Modalità
 
+Il menu ⋮ in alto a destra porta a qualsiasi modalità senza tornare alla home.
+
 - **Simulazione esame**: 30 domande a caso, 30 minuti. Si supera con al massimo 3 errori; le domande senza risposta contano come errori. Alla fine mostra il risultato e la correzione.
 - **Allenamento rapido**: una domanda a caso alla volta, con la risposta giusta mostrata subito. Dopo 3 secondi passa da sola alla domanda successiva (oppure tocca "Prossima"). Pensata per il telefono.
+- **Provale tutte**: tutte le domande, in ordine casuale e senza ripetizioni (le domande stampate due volte nel PDF compaiono una volta sola). Il browser ricorda quelle già fatte (in `localStorage`), quindi si può riprendere da dove si era rimasti. Alla fine si possono riprovare solo le sbagliate o ricominciare da capo.
 - **Riconosci il fungo**: una foto e tre nomi di specie, scegli quello giusto. Dopo la risposta mostra il nome, il nome comune e se la specie è commestibile, sospetta, tossica o mortale. Le specie sono quelle citate nel PDF, compresi i sosia tossici.
 - **Allenamento rapido (con foto)**: le domande ufficiali che riguardano una specie precisa, con la foto di quella specie.
 
 ## Struttura
 
 - `site/`: la web app statica (HTML, CSS con [Picnic CSS](https://picnicss.com), JavaScript senza dipendenze).
-- `site/questions.json`: le domande estratte dal PDF.
+- `site/questions.json`: le domande estratte dal PDF, senza risposte.
+- `site/answers.json`: le risposte corrette, come lettere (`{"A1": "B", ...}`), da confrontare direttamente con le griglie alle pagine 44–46 del PDF.
 - `site/species.json` e `site/photos/`: specie e foto, generate da `tools/fetch_photos.py` a partire da `tools/species.tsv`.
-- `tools/extract_questions.py`: rigenera `site/questions.json` dal PDF.
+- `tools/extract_questions.py`: rigenera `site/questions.json` e `site/answers.json` dal PDF.
 
 ## Foto e fonti
 
@@ -41,9 +45,10 @@ python3 tools/fetch_photos.py --refresh  # riscarica tutto
 Serve `pdftotext` (pacchetto `poppler-utils`).
 
 ```sh
-python3 tools/extract_questions.py domande2024.pdf site/questions.json
+python3 tools/extract_questions.py domande2024.pdf site/questions.json site/answers.json
 ```
 
+Il primo file contiene le domande, il secondo la lettera della risposta corretta per ogni domanda, nello stesso ordine.
 Lo script si ferma con un errore se una domanda non ha 3 risposte o non ha la risposta corretta nella griglia.
 Nel PDF la domanda Cc8 compare due volte: la seconda non ha una risposta nella griglia e viene scartata.
 

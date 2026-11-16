@@ -16,7 +16,7 @@ Students memorise what the app shows. Every answer, photo, badge and credit must
 
 | What | Truth | Never use as truth |
 |---|---|---|
-| Correct answer | PDF answer grids, pages 44–46 of `domande2024.pdf`, re-read by you | `site/questions.json`, `tools/extract_questions.py` |
+| Correct answer | PDF answer grids, pages 44–46 of `domande2024.pdf`, re-read by you | `site/questions.json`, `site/answers.json`, `tools/extract_questions.py` |
 | Photo species | the photo itself + its source page (`photo.url`) | the file name, the credit line |
 | Edibility | PDF answers when they say it; else universoalpino lists or the MUSE species text | your memory alone |
 | Credit | the watermark or author named in the image or on its source page | `photo.author` |
@@ -28,7 +28,7 @@ Students memorise what the app shows. Every answer, photo, badge and credit must
 
 ## Checklist (all required)
 
-1. **Answer key.** Rebuild the key from the PDF yourself (`pdftotext -bbox` or rendered pages; the species grid on page 46 is rotated). Diff every id, text, option and answer against `questions.json`.
+1. **Answer key.** Rebuild the key from the PDF yourself (`pdftotext -bbox` or rendered pages; the species grid on page 46 is rotated). Diff every id, text and option against `questions.json`, and every answer letter against `answers.json` (same order; letter A/B/C = option 1/2/3).
 2. **Drive the real app** in headless Chrome:
    - `#rapido`: every question.
    - `#foto`: every question that gets a photo.

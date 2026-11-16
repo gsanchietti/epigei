@@ -8,8 +8,7 @@
    "contengono clorofilla",
    "non contengono clorofilla",
    "hanno tutti l’anello"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A2",
@@ -20,8 +19,7 @@
    "al regno vegetale",
    "al regno animale",
    "ad un regno a sé stante"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A3",
@@ -32,8 +30,7 @@
    "solo quelli ben visibili ad occhio nudo",
    "quelli che hanno il cappello",
    "anche quelli microscopici non visibili ad occhio nudo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A4",
@@ -44,8 +41,7 @@
    "la parte riproduttiva del fungo",
    "la parte vegetativa del fungo",
    "è costituito da spore"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A5",
@@ -56,8 +52,7 @@
    "quelli che non hanno il gambo",
    "quelli che crescono sopra il suolo",
    "tutti quelli che hanno l’anello"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A6",
@@ -68,8 +63,7 @@
    "non esistono",
    "crescono solo in America",
    "sono quelli che crescono sotto il suolo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A7",
@@ -80,8 +74,7 @@
    "si autoalimentano come le piante",
    "non sono in grado di costruirsi le sostanze nutritizie",
    "vivono negli ambienti acquatici"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A8",
@@ -92,8 +85,7 @@
    "per mezzo di semi chiamati “spore”",
    "solo a luna calante",
    "per duplicazione come i batteri"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A9",
@@ -104,8 +96,7 @@
    "parassiti",
    "saprofiti",
    "simbionti"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A10",
@@ -116,8 +107,7 @@
    "parassiti",
    "saprofiti",
    "simbionti"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A11",
@@ -128,8 +118,7 @@
    "parassiti",
    "saprofiti",
    "simbionti"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A12",
@@ -140,8 +129,7 @@
    "non esistono",
    "sono tutti quelli che si possono vendere",
    "sono quelli che provengono dall’ambiente naturale"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A13",
@@ -152,8 +140,7 @@
    "sono quelli di importazione",
    "sono tutti quelli che si possono vendere",
    "sono quelli che provengono da coltivazioni"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A14",
@@ -164,8 +151,7 @@
    "sono solo quelli spontanei",
    "sono quelli che non sono stati sottoposti a trattamenti di conservazione",
    "sono solo quelli coltivati"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A15",
@@ -176,8 +162,7 @@
    "non provengono da coltivazioni",
    "sono quelli naturali",
    "sono quelli coltivati nei Paesi dell’est Europa"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A16",
@@ -188,8 +173,7 @@
    "frutti di una propria “pianta” generalmente non visibile",
    "pianticelle con proprie radici",
    "vegetali incompleti"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A17",
@@ -200,8 +184,7 @@
    "sono solo i porcini e gli champignon",
    "si allevano su piante",
    "appartengono al gruppo dei funghi saprofiti"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A18",
@@ -212,8 +195,7 @@
    "sono pochissimi",
    "sono definiti “spore”",
    "sono assenti nei funghi coltivati"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A19",
@@ -224,8 +206,7 @@
    "sacchetto",
    "vescicola",
    "imenio"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A20",
@@ -236,8 +217,7 @@
    "sotto il cappello",
    "nella carne",
    "sopra il gambo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A21",
@@ -248,8 +228,7 @@
    "sono molto rari",
    "non appartengono al gruppo dei porcini",
    "crescono solo in montagna"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A22",
@@ -260,8 +239,7 @@
    "sono pericolosi",
    "crescono solo in pianura",
    "sono i più diffusi"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A23",
@@ -272,8 +250,7 @@
    "possono avere anche dei tubicini",
    "hanno sempre un anello",
    "sono sempre di colore bianco"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A24",
@@ -284,8 +261,7 @@
    "distingue quelli buoni da quelli cattivi",
    "è sempre presente",
    "è caratteristico solo di alcune specie"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A25",
@@ -296,8 +272,7 @@
    "non serve a distinguere i funghi mangerecci da quelli tossici",
    "è posseduto solo da alcune specie di porcini",
    "non cade mai"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A26",
@@ -308,8 +283,7 @@
    "è una caratteristica di tutti i funghi mangerecci",
    "ce l’hanno solo i funghi velenosi",
    "è il residuo di un velo che proteggeva la parte fertile del fungo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A27",
@@ -320,8 +294,7 @@
    "è tipica dei porcini di importazione",
    "ce l’hanno tutti i funghi coltivati",
    "è tipica di alcuni funghi lamellati"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A28",
@@ -332,8 +305,7 @@
    "un insetto ospite dei funghi",
    "sempre presente nelle Amanita",
    "una malformazione di alcune specie di funghi"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A29",
@@ -344,8 +316,7 @@
    "ce l’hanno solo i funghi pregiati",
    "non esiste nei funghi",
    "è il residuo di un velo che protegge lo sviluppo di taluni funghi"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A30",
@@ -356,8 +327,7 @@
    "è sempre di colore bianco",
    "non esiste nei funghi ipogei",
    "è il tronco della pianta fungo"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A31",
@@ -368,8 +338,7 @@
    "è un utile elemento nella determinazione dei funghi",
    "non è significativa",
    "è la parte del fungo che contiene i grassi"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A32",
@@ -380,8 +349,7 @@
    "l’anello",
    "la lamellula",
    "la vitamina C"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A33",
@@ -392,8 +360,7 @@
    "è molto importante per il riconoscimento",
    "non è molto significativo per il riconoscimento",
    "è dovuto alla clorofilla contenuta"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A34",
@@ -404,8 +371,7 @@
    "sono tutti velenosi",
    "vengono colorati artificialmente",
    "sono ricchi di coloranti naturali"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A35",
@@ -416,8 +382,7 @@
    "è molto ricca di proteine nobili",
    "può essere di diverso colore",
    "è sempre bianca"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A36",
@@ -428,8 +393,7 @@
    "vuol dire che si tratta di funghi velenosi",
    "vuol significare che i funghi sono alterati",
    "è una caratteristica di alcune specie fungine"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A37",
@@ -440,8 +404,7 @@
    "è molto significativo per la loro identificazione",
    "è sempre assente nei funghi buoni da mangiare",
    "è disgustoso nei funghi con le lamelle"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A38",
@@ -452,8 +415,7 @@
    "viene decisa dal Governo",
    "è stabilita dallo Stato",
    "è il risultato di ripetuti consumi da parte del genere umano"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A39",
@@ -464,8 +426,7 @@
    "hanno la carne bianca",
    "hanno sempre un anello",
    "appartengono a specie di comprovata commestibilità"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A40",
@@ -476,8 +437,7 @@
    "è un elemento che possiedono tutti i funghi",
    "può essere assente in certe specie fungine",
    "è sempre presente nei funghi buoni da mangiare"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A41",
@@ -488,8 +448,7 @@
    "sullo studio dei suoi caratteri",
    "sull’esperienza del raccoglitore",
    "sul confronto con raffigurazioni"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A42",
@@ -500,8 +459,7 @@
    "semini",
    "spore",
    "drupe"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A43",
@@ -512,8 +470,7 @@
    "pianta nascosta",
    "muffa grigia",
    "micelio"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A44",
@@ -524,8 +481,7 @@
    "ben visibili ad occhio nudo",
    "posti sopra il cappello",
    "microscopici o difficili da vedere ad occhio nudo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A45",
@@ -536,8 +492,7 @@
    "bisogna guardare se hanno l’anello",
    "si devono conoscere le loro caratteristiche",
    "basta consultare internet"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A46",
@@ -548,8 +503,7 @@
    "si alterano facilmente",
    "hanno una conservabilità di sole tre settimane",
    "vanno conservati solo nei sacchetti di plastica trasparente"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "A47",
@@ -560,8 +514,7 @@
    "vanno conservati al caldo",
    "scadono dopo poche settimane",
    "si devono conservare in luoghi freschi meglio se a 2°C"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A48",
@@ -572,8 +525,7 @@
    "provengono esclusivamente dall’estero",
    "vengono coltivati solo in particolari grotte",
    "possono essere coltivati anche in appositi stabilimenti"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A49",
@@ -584,8 +536,7 @@
    "si differenziano dagli analoghi spontanei per i colori più vivaci",
    "hanno le stesse caratteristiche morfobotaniche degli analoghi spontanei",
    "hanno colori sbiaditi perché coltivati al buio"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A50",
@@ -596,8 +547,7 @@
    "il Boletus edulis o porcino",
    "l’Armillaria mellea o chiodino",
    "l’Agaricus bisporus o champignon"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A51",
@@ -608,8 +558,7 @@
    "Armillaria mellea",
    "Pholiota nameko",
    "Ciclocybe (Agrocybe) aegerita"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "A52",
@@ -620,8 +569,7 @@
    "Boletus edulis",
    "Agaricus bisporus",
    "Amanita caesarea"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A53",
@@ -632,8 +580,7 @@
    "che non cresce spontaneamente nell’ambiente",
    "è scientificamente denominata “Pleurotus ostreatus”",
    "è simbionte dei platani"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "A54",
@@ -644,8 +591,7 @@
    "hanno il cappello biancastro",
    "provengono dalla Sicilia",
    "non esistono"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B1",
@@ -656,8 +602,7 @@
    "si riconoscono dall’odore sgradevole",
    "si riconoscono dai colori sgargianti",
    "possono avere anche sapori gradevoli"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B2",
@@ -668,8 +613,7 @@
    "sono tutti buoni da mangiare",
    "si possono consumare solo se sono giovani",
    "comprendono anche specie mortali"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B3",
@@ -680,8 +624,7 @@
    "possono essere confusi con specie commestibili",
    "si possono consumare solo se sono giovani",
    "sono coloratissimi"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B4",
@@ -692,8 +635,7 @@
    "hanno tutti la carne bianca",
    "hanno sempre un buon profumo",
    "appartengono a specie mangerecce"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B5",
@@ -704,8 +646,7 @@
    "sono quelli velenosi solo da crudi",
    "non sono velenosi ma non sono adatti al consumo umano",
    "possono provocare anche gravi disturbi intestinali"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B6",
@@ -716,8 +657,7 @@
    "vanno consumati solo da crudo",
    "si possono consumare solo quando sono completamente sviluppati",
    "in alcuni casi possono essere tossici se consumati crudi"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B7",
@@ -728,8 +668,7 @@
    "diventano generalmente tali solo dopo la loro cottura",
    "appartengono tutti al genere Amanita",
    "hanno i tubicini al posto delle lamelle"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B8",
@@ -740,8 +679,7 @@
    "se sono cresciuti in ambienti insalubri",
    "quando si tratta di specie commestibili ma alterate",
    "se sono cresciuti vicino a funghi velenosi"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B9",
@@ -752,8 +690,7 @@
    "non crescono",
    "non hanno mai rappresentato un pericolo per la salute umana",
    "sono comunemente presenti nell’ambiente"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B10",
@@ -764,8 +701,7 @@
    "causano problemi alla salute alle persone che li consumano",
    "appartengono tutti alla famiglia dei satanici",
    "emettono veleni gassosi"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B11",
@@ -776,8 +712,7 @@
    "immediatamente dopo il loro consumo",
    "anche dopo alcuni giorni dal consumo",
    "durante il pasto"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B12",
@@ -788,8 +723,7 @@
    "normalmente entro 5/6 ore dal consumo",
    "con estrema violenza durante il loro consumo",
    "anche se si annusano"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B13",
@@ -800,8 +734,7 @@
    "solo in alta montagna",
    "anche frammischiati agli ovoli di Amanita caesarea",
    "solo sui litorali marini"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B14",
@@ -812,8 +745,7 @@
    "mortale se consumato sia crudo che cotto",
    "mortale solo se consumato crudo",
    "mortale anche per contatto con la pelle"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B15",
@@ -824,8 +756,7 @@
    "disattiva i veleni contenuti",
    "rende commestibili anche i funghi mortali",
    "non ne modifica assolutamente la tossicità"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B16",
@@ -836,8 +767,7 @@
    "puntini bianchi sul cappello di colore rosso",
    "la volva e l’anello",
    "un odore di uova marce"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B17",
@@ -848,8 +778,7 @@
    "cresce sui tronchi delle piante vive",
    "può essere confusa con funghi commestibili",
    "cresce sui tronchi assieme ai chiodini"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B18",
@@ -860,8 +789,7 @@
    "rosso",
    "marrone",
    "verde olivastro"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B19",
@@ -872,8 +800,7 @@
    "bianco",
    "giallo",
    "rossastro"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B20",
@@ -884,8 +811,7 @@
    "solo funghi tossici o mortali",
    "solo funghi commestibili",
    "anche specie pregiate commercializzabili"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B21",
@@ -896,8 +822,7 @@
    "commestibile",
    "mortale",
    "tossico e a cappello rosso con i puntini bianchi"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B22",
@@ -908,8 +833,7 @@
    "il Rubroboletus satanas",
    "l’Amanita pantherina",
    "l’Amanita phalloides"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B23",
@@ -920,8 +844,7 @@
    "determinano avvelenamenti non ad esito mortale",
    "provocano la morte immediata del paziente",
    "non richiedono cure"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B24",
@@ -932,8 +855,7 @@
    "si può confondere con l’ovolo di Amanita caesarea",
    "è di colore rosso",
    "ha una evidente volva"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B25",
@@ -944,8 +866,7 @@
    "sono pericolosi solo se i funghi vengono consumati",
    "sono pericolosi anche toccando i funghi",
    "non rappresentano alcun pericolo se si toccano i funghi con i guanti"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B26",
@@ -956,8 +877,7 @@
    "dall’andamento stagionale di crescita",
    "anche dal consumo di funghi commestibili ma alterati",
    "dai lunghi periodi di siccità"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B27",
@@ -968,8 +888,7 @@
    "diventano tossici anche se appartengono a specie mangerecce",
    "sono pericolosi solo se appartengono a specie tossiche",
    "sono ricchi di microrganismi patogeni"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B28",
@@ -980,8 +899,7 @@
    "anneriscono l’argento",
    "rendono più brillante la pentola",
    "procurano avvelenamenti in chi li consuma"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B29",
@@ -992,8 +910,7 @@
    "farli assaggiare al cane o al gatto",
    "verificare che in cottura non anneriscano l’aglio",
    "essere certi che si tratti di specie mangerecce"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B30",
@@ -1004,8 +921,7 @@
    "recarsi presto al pronto soccorso",
    "prendere una camomilla e aspettare se passano",
    "bere molto latte intero tiepido"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B31",
@@ -1016,8 +932,7 @@
    "sono rarissimi in Italia",
    "possono essere causati anche da disattenzioni nella fase di vendita",
    "non hanno mai riguardato i funghi commercializzati"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B32",
@@ -1028,8 +943,7 @@
    "se si beve subito del latte crudo di capra dopo il loro consumo",
    "se si è ben sicuri di ciò che si pone in vendita",
    "se durante l’esposizione per la vendita non si manifestano cattivi odori"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B33",
@@ -1040,8 +954,7 @@
    "non sono tossici",
    "non hanno le lamelle",
    "sono tossici e non hanno le lamelle bianche"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B34",
@@ -1052,8 +965,7 @@
    "è un fungo con le lamelle violacee",
    "è un fungo tossico confondibile con i porcini",
    "è ottimo se consumato poco cotto"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B35",
@@ -1064,8 +976,7 @@
    "è un fungo tossico confondibile con il Cantharellus cibarius",
    "è il miglior fungo commestibile degli ulivi",
    "si riconosce perché è molto ricco di olio"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B36",
@@ -1076,8 +987,7 @@
    "hanno i tubuli al posto delle lamelle",
    "secernono lattice alla frattura del gambo",
    "sono i funghi del genere Hypholoma cosiddetti “falsi chiodini”"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B37",
@@ -1088,8 +998,7 @@
    "hanno i tubuli sotto il cappello",
    "non hanno mai delle venature o costolature al posto delle lamelle",
    "non hanno colori giallastri"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B38",
@@ -1100,8 +1009,7 @@
    "possono essere venduti solo in farmacia",
    "hanno proprietà anticancerogene",
    "devono essere assolutamente evitati"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B39",
@@ -1112,8 +1020,7 @@
    "è quello di essere sicuri della loro assenza",
    "consiste nell’osservare il cambiamento del loro colore",
    "consiste nell’annusarli spesso"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B40",
@@ -1124,8 +1031,7 @@
    "Il Suilellis luridus ed il Rubroboletus satanas",
    "L’Hypholoma fasciculare e l’Hydnum repandum",
    "Il Cortunarius orellanus e l’Amanita phalloides"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B41",
@@ -1136,8 +1042,7 @@
    "si, nei prataioli tossici del gruppo Xanthoderma",
    "no",
    "si, in esemplari molto maturi"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B42",
@@ -1148,8 +1053,7 @@
    "ha il cappello e lamelle bruno-rossiccio, gambo più chiaro, carne ocracea con odore debole rafanoide",
    "ha tubuli e pori rosso-aranciati",
    "ha cappello, lamelle e gambo bianchi"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B43",
@@ -1160,8 +1064,7 @@
    "cappello di grandi dimensioni, ocraceo, senza odore e sapore",
    "cappello di piccole dimensioni bruno-ocra scuro, carne con sapore di farina, crescita su legni di conifere",
    "cappello carnoso, giallo, carne senza odore, crescita sul terreno"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B44",
@@ -1172,8 +1075,7 @@
    "cappello (mitra) conico, bruno-olivastro, carne senza odore, crescita autunnale",
    "cappello a forma di sella, gambo cavo, carne biancastra, odore gradevole, crescita autunnale",
    "cappello (mitra) simile a un cervello, bruno-rossiccio, gambo cavo biancastro, carne con odore spermatico, crescita primaverile"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B45",
@@ -1184,8 +1086,7 @@
    "ha la carne bianca con odore di mandorle",
    "ha la carne bianca virante al giallo su tutte le superfici esterne e più intensamente alla base del gambo dove presenta anche un forte odore di inchiostro",
    "ha la carne bianca virante al rosso con odore trascurabile"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B46",
@@ -1196,8 +1097,7 @@
    "è un fungo tossico responsabile di sindrome gastroenterica",
    "è un fungo commestibile dopo perfetta cottura",
    "è un fungo commestibile"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B47",
@@ -1208,8 +1108,7 @@
    "ha le lamelle gialle che con la maturazione delle spore diventano rosa, carne con odore e sapore di farina",
    "ha le lamelle biancastre sia nel fungo giovane che nell’adulto, carne con odore di farina",
    "ha le lamelle biancastre sia nel fungo giovane che adulto, carne con odore e sapore di ravanello"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B48",
@@ -1220,8 +1119,7 @@
    "presenta lattice aranciato, carne spessa e compatta, sapore mite",
    "presenta lattice bianco immutabile, carne dura e compatta, sapore molto acre",
    "presenta lattice bianco che vira al giallo, carne spessa e soda, sapore amaro"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B49",
@@ -1232,8 +1130,7 @@
    "presenta cappello rosso-arancio, lamelle gialle, carne con sapore mite",
    "presenta cappello verde, lamelle e gambo bianchi, carne con sapore mite",
    "presenta cappello rosso vivo spesso decolorato in bianco o rosa, lamelle e gambo bianchi che si macchiano di giallo, carne bianca con sapore bruciante"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B50",
@@ -1244,8 +1141,7 @@
    "le Russule con sapore piccante o pepato",
    "le Russule con lamelle bianche e lardose",
    "le Russule con sapore mite"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B51",
@@ -1256,8 +1152,7 @@
    "presenta il tronco bianco e i rami gialli",
    "presenta il tronco bianco, i rami rosa salmone, le punte dei rami gialle",
    "presenta il tronco e i rami biancastri"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B52",
@@ -1268,8 +1163,7 @@
    "è un fungo commestibile",
    "è un fungo non commestibile",
    "è un fungo tossico responsabile di sindrome gastroenterica"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B53",
@@ -1280,8 +1174,7 @@
    "è un fungo commestibile",
    "è un fungo non commestibile",
    "è un fungo velenoso mortale"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B54",
@@ -1292,8 +1185,7 @@
    "è responsabile di intossicazioni mortali con sindrome rabdomiolitica a seguito di pasti abbondanti e ripetuti",
    "è un fungo commestibile",
    "è un fungo non commestibile"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B55",
@@ -1304,8 +1196,7 @@
    "è un fungo tossico",
    "è un fungo commestibile",
    "è un fungo non commestibile"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B56",
@@ -1316,8 +1207,7 @@
    "presenta cappello, lamelle e gambo bianchi",
    "presenta cappello bianco, lamelle rosate, gambo fibrilloso",
    "presenta cappello, lamelle e gambo gialli"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B57",
@@ -1328,8 +1218,7 @@
    "ha reticolo sul gambo",
    "non ha reticolo sul gambo",
    "ha costolature sul gambo"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B58",
@@ -1340,8 +1229,7 @@
    "presenta volva e anello",
    "presenta volva",
    "presenta anello"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B59",
@@ -1352,8 +1240,7 @@
    "ha la volva membranosa",
    "non ha la volva",
    "ha la volva dissociata"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B60",
@@ -1364,8 +1251,7 @@
    "carne dolce e odore fungino",
    "carne acre con odore di terriccio",
    "carne amara con odore rafanoide"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B61",
@@ -1376,8 +1262,7 @@
    "volva alla base del gambo",
    "colori vivaci",
    "lamelle ocra"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B62",
@@ -1388,8 +1273,7 @@
    "fibrille giallo olivastre",
    "colorazione bianca",
    "pliche scure"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B63",
@@ -1400,8 +1284,7 @@
    "prati perenni",
    "boschi di latifoglie",
    "legno marcescente di conifere"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B64",
@@ -1412,8 +1295,7 @@
    "boschi di conifere e latifoglie",
    "prati perenni",
    "in prossimità di pascoli"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B65",
@@ -1424,8 +1306,7 @@
    "dimensioni ridotte",
    "portamento slanciato",
    "odore fetido e ripugnante"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B66",
@@ -1436,8 +1317,7 @@
    "Morchelle",
    "Geastrum",
    "Helvella"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B67",
@@ -1448,8 +1328,7 @@
    "rosato",
    "chiaro",
    "nere"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B68",
@@ -1460,8 +1339,7 @@
    "lamelle",
    "lamellule",
    "pseudolamelle"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B69",
@@ -1472,8 +1350,7 @@
    "dolce",
    "amaro",
    "acre"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B70",
@@ -1484,8 +1361,7 @@
    "è un fungo di taglia grande",
    "è un fungo di piccola taglia",
    "è un fungo di taglia media"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B71",
@@ -1496,8 +1372,7 @@
    "margine del cappello striato, odore di ravanello",
    "margine del cappello sottile, odore agliaceo",
    "margine del cappello involuto, odore di farina"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B72",
@@ -1508,8 +1383,7 @@
    "lamelle fitte, decorrenti sul gambo che si macchiano di bruno al tocco",
    "lamelle spaziate",
    "lamelle fitte"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B73",
@@ -1520,8 +1394,7 @@
    "cappello fibrilloso giallo verde",
    "cappello grigio topo ricoperto da placche squamose su fondo chiaro",
    "cappello fibrilloso bruno rossiccio"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "B74",
@@ -1532,8 +1405,7 @@
    "cappello olivastrto, gambo liscio, sapore mite",
    "cappello giallastro, gambo fibrilloso, sapore farinoso",
    "cappello grigio, gambo con squamette scure, sapore amaro e acre"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "B75",
@@ -1544,8 +1416,7 @@
    "cappello, lamelle, gambo e carne di colore giallo zolfo con odore di zolfo",
    "cappello, lamelle, gambo e carne di colore bianco con odore di zolfo",
    "cappello, lamelle, gambo e carne di colore grigio con odore di farina rancida"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B76",
@@ -1556,8 +1427,7 @@
    "cappello umbonato, fibrillato, carne bianca con odore spermatico",
    "cappello convesso fibrillato, carne giallastra con odore di farina fresca",
    "cappello umbonato, fibrillato, carne bianca con odore di farina rancida"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "B77",
@@ -1568,8 +1438,7 @@
    "gambo bianco con base bulbillosa",
    "ife rizomorfe bianche al fondo del gambo",
    "gambo radicante"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be1",
@@ -1580,8 +1449,7 @@
    "possono essere commercializzati",
    "hanno lamelle bianco latte",
    "non hanno mai un reticolo sul gambo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be2",
@@ -1592,8 +1460,7 @@
    "giallastra",
    "bianca immutabile",
    "bianca che si ossida all’azzurrognolo"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be3",
@@ -1604,8 +1471,7 @@
    "hanno i tubuli sotto il capello",
    "da giovani hanno lamelle fittissime",
    "possono avere sia lamelle che tubuli ma sempre la carne bianca"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be4",
@@ -1616,8 +1482,7 @@
    "la carne bianca a sapore mite ed il gambo reticolato",
    "il gambo squamato ed ingrassato",
    "le verruche o squamette sul cappello"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be5",
@@ -1628,8 +1493,7 @@
    "hanno sempre il gambo di diametro maggiore del cappello",
    "presentano le caratteristiche proprie del gruppo di appartenenza",
    "sono gli unici funghi di colore marrone"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be6",
@@ -1640,8 +1504,7 @@
    "sono rappresentate dai Boletus del gruppo “edulis”",
    "sono tutte commestibili",
    "possono comprendere anche specie non commestibili"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be7",
@@ -1652,8 +1515,7 @@
    "del genere Suillus",
    "del gruppo edulis",
    "del genere Leccinum"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be8",
@@ -1664,8 +1526,7 @@
    "Butyriboletus regius",
    "Boletus aereus",
    "Suinellus luridus"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be9",
@@ -1676,8 +1537,7 @@
    "Tylopilus o Boletus felleus",
    "Cyanoboletus pulverulentus",
    "Suillus granulatus"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be10",
@@ -1688,8 +1548,7 @@
    "leggermente amara sotto la cuticola",
    "generalmente bianca a sapore mite",
    "bianca da giovane poi giallastra"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be11",
@@ -1700,8 +1559,7 @@
    "sono sempre leggermente amari",
    "si possono confondere con le cosiddette “mazze da tamburo”",
    "hanno un gambo più o meno reticolato"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Be12",
@@ -1712,8 +1570,7 @@
    "comprendono una sola specie fungina, il Boletus edulis",
    "sono più di uno",
    "rappresentano un gruppo numerosissimo di oltre 50 specie"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be13",
@@ -1724,8 +1581,7 @@
    "solo con altre Boletaceae",
    "in taluni casi con le Morchelle",
    "anche con specie di conformazione analoga ma che hanno le lamelle"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be14",
@@ -1736,8 +1592,7 @@
    "solo allo stato fresco",
    "solo freschi ma non confezionati",
    "anche se diversamente conservati"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Be15",
@@ -1748,8 +1603,7 @@
    "provengono da coltivazioni biologiche",
    "vengono importati",
    "quelli sani ed in buono stato di conservazione"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Be16",
@@ -1760,8 +1614,7 @@
    "provengono da coltivazioni",
    "sono tutti di origine nazionale",
    "sono generalmente di importazione"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Be17",
@@ -1772,8 +1625,7 @@
    "devono essere bagnati spesso con acqua fresca",
    "devono avere un colore uniforme",
    "devono essere spesso verificati circa lo stato di conservazione"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Be18",
@@ -1784,8 +1636,7 @@
    "tipicamente medioorientale",
    "del gruppo dell’edulis",
    "diversa da quelle del gruppo edulis"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be19",
@@ -1796,8 +1647,7 @@
    "dello stesso gruppo dell’edulis",
    "che non esiste",
    "che cresce solo oltre i duemila metri di quota"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be20",
@@ -1808,8 +1658,7 @@
    "bruno nerastro",
    "nocciola tenue",
    "biancastro"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be21",
@@ -1820,8 +1669,7 @@
    "tipica delle pinete maremmane",
    "appartenente allo stesso gruppo dell’edulis",
    "che cresce sulle ceppaie di pino"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be22",
@@ -1832,8 +1680,7 @@
    "cresce solo nei boschi di pino",
    "appartiene allo stesso gruppo dell’edulis",
    "che cresce sulle ceppaie di pino"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be23",
@@ -1844,8 +1691,7 @@
    "bruno rossastro",
    "giallastro",
    "verdastro"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be24",
@@ -1856,8 +1702,7 @@
    "marrone",
    "rosso",
    "nerastro"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be25",
@@ -1868,8 +1713,7 @@
    "hanno l’anello",
    "possono essere confusi anche con specie lamellate",
    "risultano disgustosi"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be26",
@@ -1880,8 +1724,7 @@
    "si consumano solo crudi in insalata",
    "si possono consumare crudi se sono giovani ma in quantitativi modesti",
    "non si prestano ad essere essiccati"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Be27",
@@ -1892,8 +1735,7 @@
    "possono essere facilmente invasi da larve di insetti",
    "non sono mai invasi da larve",
    "svolgono la funzione di insetticida naturale"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Be28",
@@ -1904,8 +1746,7 @@
    "crea condizioni di euforia",
    "deve essere accompagnato dal consumo di superalcolici",
    "potrebbe dar luogo a manifestazioni cliniche di intolleranza alimentare"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Be29",
@@ -1916,8 +1757,7 @@
    "nel più breve tempo possibile",
    "non più tardi di 10 giorni dall’acquisto",
    "anche dopo due settimane se sono certificati"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am1",
@@ -1928,8 +1768,7 @@
    "è volgarmente chiamata “chiodino”",
    "cresce solo nelle Marche",
    "è una specie solitaria"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am2",
@@ -1940,8 +1779,7 @@
    "si può consumare solo cruda",
    "Può rivelarsi tossica se consumata poco cotta",
    "è una specie sempre commestibile"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Am3",
@@ -1952,8 +1790,7 @@
    "simbionte",
    "parassita o saprofita",
    "coltivata"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Am4",
@@ -1964,8 +1801,7 @@
    "bianca",
    "rosata",
    "nerastra"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am5",
@@ -1976,8 +1812,7 @@
    "volva",
    "tubuli",
    "anello"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Am6",
@@ -1988,8 +1823,7 @@
    "cresce spontanea",
    "proviene solo da coltivazioni",
    "viene allevata in grotte"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am7",
@@ -2000,8 +1834,7 @@
    "solo in pianura",
    "sia in pianura che in montagna",
    "solo sulle aghifoglie"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Am8",
@@ -2012,8 +1845,7 @@
    "eliminare le lamelle e l’anello",
    "consumarla a crudo",
    "farla bollire in acqua prima di cucinarla e buttare via l’acqua di cottura"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Am9",
@@ -2024,8 +1856,7 @@
    "è più gustosa",
    "risulta spesso tossica",
    "rimane più morbida"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Am10",
@@ -2036,8 +1867,7 @@
    "sempre un anello e le lamelle bianche",
    "non ha mai l’anello ma una volva",
    "ha sempre lamelle colorate ed una cortina"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am11",
@@ -2048,8 +1878,7 @@
    "bianco",
    "marrone",
    "rosa"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am12",
@@ -2060,8 +1889,7 @@
    "bianco",
    "marrone",
    "rosa"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am13",
@@ -2072,8 +1900,7 @@
    "inebriante",
    "forte e pungente",
    "fungino"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Am14",
@@ -2084,8 +1911,7 @@
    "fini squamette simili a peluria più dense al centro",
    "residui di volva biancastri",
    "una cuticola liscia di colore uniforme"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am15",
@@ -2096,8 +1922,7 @@
    "è sempre lo stesso",
    "può variare moltissimo",
    "dipende dall’altitudine"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Am16",
@@ -2108,8 +1933,7 @@
    "di norma cespitosa",
    "sempre singolarmente",
    "solo in pianura"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am17",
@@ -2120,8 +1944,7 @@
    "deve essere consumata entro dieci giorni dall’acquisto",
    "deve essere stata abbondantemente lavata",
    "deve essere sana e consumata il più presto possibile"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Am18",
@@ -2132,8 +1955,7 @@
    "il cappello leggermente viscido soprattutto a tempo umido",
    "la volva e le squame sul cappello",
    "la carne giallastra"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am19",
@@ -2144,8 +1966,7 @@
    "sempre chiari",
    "molto variabili",
    "cupi all’imbrunire"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Am20",
@@ -2156,8 +1977,7 @@
    "cresce generalmente cespitosa",
    "non ha mai le lamelle bianche",
    "ha la carne nerastra"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am21",
@@ -2168,8 +1988,7 @@
    "con specie fungine cespitose simili",
    "con i Boleti dei pini",
    "con le Russula ed i Lactarius"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am22",
@@ -2180,8 +1999,7 @@
    "con tutti i funghi che hanno l’anello e gli aculei",
    "con funghi a lamelle cespitosi",
    "con i Tricholoma e gli Hygrophorus"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Am23",
@@ -2192,8 +2010,7 @@
    "non è mai cespitosa",
    "ha un odore di melanzana marcia",
    "ha l’anello e le lamelle bianche"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Am24",
@@ -2204,8 +2021,7 @@
    "deve riportare solo il nome volgare con la quale è conosciuta",
    "deve essere rinfrescata ogni 20 minuti",
    "deve riportare anche le modalità di utilizzazione"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Am25",
@@ -2216,8 +2032,7 @@
    "deve riportare anche il nome scientifico e la provenienza",
    "deve indicare il sistema di allevamento",
    "deve riportare solo il prezzo di vendita"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am26",
@@ -2228,8 +2043,7 @@
    "l’obbligo della sua certificazione",
    "la presenza nelle vicinanze di un Micologo abilitato",
    "l’utilizzo di soli contenitori di cartoncino stampato"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Am27",
@@ -2240,8 +2054,7 @@
    "è libera",
    "è subordinata a certificazione sanitaria",
    "deve avvenire solo nei siti indicati dall’AST"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Am28",
@@ -2252,8 +2065,7 @@
    "la Pholiota nameko",
    "la Ciclocybe aegerita",
    "l’Armillaria mellea"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Ac1",
@@ -2264,8 +2076,7 @@
    "con lamelle",
    "con tubuli",
    "con aculei"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac2",
@@ -2276,8 +2087,7 @@
    "non si può commercializzare nei negozi di vicinato",
    "viene coltivata a Cesarea",
    "allo stato di ovolo si può confondere con specie mortali"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Ac3",
@@ -2288,8 +2098,7 @@
    "L’ovolo di Amanita phalloides",
    "le Russula gialle immature",
    "le Morchelle"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac4",
@@ -2300,8 +2109,7 @@
    "sono molti",
    "vi è solo l’Amanita caesarea",
    "vi sono anche tutte le specie italiane"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Ac5",
@@ -2312,8 +2120,7 @@
    "all’Armillaria mellea",
    "alle Amanita bianche",
    "alle Amanita con cappello rosso o arancio"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Ac6",
@@ -2324,8 +2131,7 @@
    "le lamelle ed il gambo giallo oro",
    "le lamelle ed il gambo biancastri",
    "non ha le lamelle ma il gambo è giallo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac7",
@@ -2336,8 +2142,7 @@
    "l’anello giallo e la volva bianca",
    "non ha la volva ma solo l’anello",
    "non ha ne volva ne anello"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac8",
@@ -2348,8 +2153,7 @@
    "le lamelle gialle ed il cappello arancione",
    "le lamelle ed il gambo bianco candido",
    "le lamelle ed il cappello verde olivastro"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac9",
@@ -2360,8 +2164,7 @@
    "solo dopo prolungata cottura",
    "solamente cruda in insalata",
    "sia da cotta che da cruda"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Ac10",
@@ -2372,8 +2175,7 @@
    "il fungo più abbondante in natura",
    "tipica dei boschi di alta quota",
    "può essere confusa con specie mortali"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Ac11",
@@ -2384,8 +2186,7 @@
    "non si può raccogliere in Italia allo stato di ovolo",
    "non si può vendere allo stato di ovolo",
    "non si può consumare allo stato di ovolo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac12",
@@ -2396,8 +2197,7 @@
    "non cresce in Italia",
    "è una specie fungina spontanea",
    "viene coltivata industrialmente"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Ac13",
@@ -2408,8 +2208,7 @@
    "ovulaccio delle coliche",
    "ovolo buono",
    "ovulo di cesarea"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Ac14",
@@ -2420,8 +2219,7 @@
    "Amanita ovoidea",
    "Amanita caesarea",
    "Amanita aureola"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Ac15",
@@ -2432,8 +2230,7 @@
    "lamelle e gambo giallo oro",
    "fini squamette nerastre sul cappello",
    "gambo ingrossato privo di anello"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac16",
@@ -2444,8 +2241,7 @@
    "l’assenza assoluta di odore",
    "la presenza di odore di uova marce",
    "la formazione di colonie di lieviti neri"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Ac17",
@@ -2456,8 +2252,7 @@
    "ogni esemplare pesa almeno 50 grammi",
    "proviene da idonei stabilimenti di coltivazione",
    "è stata rigorosamente verificata e certificata"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Ac18",
@@ -2468,8 +2263,7 @@
    "in Italia è liberamente consentita senza obblighi",
    "è subordinata a certificazione sanitaria",
    "deve essere fatta solo in confezioni sigillate"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Ac19",
@@ -2480,8 +2274,7 @@
    "comincia a puzzare",
    "ha perso la volva",
    "perde sia l’anello che la volva"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac20",
@@ -2492,8 +2285,7 @@
    "non cresce sulle piante",
    "è abbondante in pianura",
    "cresce solo sulle aghifoglie"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac21",
@@ -2504,8 +2296,7 @@
    "non viene coltivata",
    "viene coltivata in Messico",
    "si coltiva assieme alle orecchiette"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac22",
@@ -2516,8 +2307,7 @@
    "in luoghi caldo umidi",
    "al buio",
    "in luoghi freschi ed aerati"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Ac23",
@@ -2528,8 +2318,7 @@
    "deve essere aspersa spesso con acqua zuccherata",
    "è preferibile sia mantenuta con il gambo in un bagno d’acqua",
    "deve avere il cartellino di certificazione sanitaria"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Ac24",
@@ -2540,8 +2329,7 @@
    "deve essere indicata la provenienza",
    "devono essere indicati gli ingredienti",
    "bisogna esporre l’indirizzo dell’importatore"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac25",
@@ -2552,8 +2340,7 @@
    "può essere destinata all’essiccamento",
    "ha un forte odore simile alle uova marce",
    "viene utilizzata per colorare i mangimi"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Ac26",
@@ -2564,8 +2351,7 @@
    "è biancastra con poco odore ed un sapore gradevole",
    "è verdastra con odore e sapore leggermente piccanti",
    "è pressoché assente nel gambo ma è concentrata nella volva"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac27",
@@ -2576,8 +2362,7 @@
    "non è mai completamente bianco",
    "presenta una diffusa peluria al centro",
    "diventa rossastro a contatto con l’aria"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ac28",
@@ -2588,8 +2373,7 @@
    "ha il guscio rossiccio",
    "è molto piccolo",
    "è simile agli ovoli delle altre Amanita"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc1",
@@ -2600,8 +2384,7 @@
    "non hanno lamelle ma delle venature, costolature sotto il cappello",
    "hanno evidenti lamelle gialle",
    "hanno anelli molto pronunciati"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc2",
@@ -2612,8 +2395,7 @@
    "sono in gran parte tossici",
    "non si possono commercializzare sottopeso",
    "sono tutti commercializzabili"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc3",
@@ -2624,8 +2406,7 @@
    "non crescono in Italia",
    "provengono tutti da coltivazioni",
    "sono tutti commestibili"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc4",
@@ -2636,8 +2417,7 @@
    "perché non hanno veli ne lamelle ma pseudolamelle sotto il cappello",
    "sono tutti gialli",
    "hanno volve molto fugaci"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc5",
@@ -2648,8 +2428,7 @@
    "il Cantharellus melanoxeros",
    "il Cantharellus cinereus",
    "il Cantharellus cibarius"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc6",
@@ -2660,8 +2439,7 @@
    "Armillaria mellea",
    "Russula virescens",
    "Cantharellus cibarius"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc7",
@@ -2672,8 +2450,7 @@
    "verdognolo",
    "brunastro",
    "giallastro"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc8",
@@ -2684,8 +2461,7 @@
    "un vistoso anello arancione",
    "delle pseudolamelle decorrenti sul gambo",
    "il gambo più grosso del cappello"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cc9",
@@ -2696,8 +2472,7 @@
    "si può confondere con funghi gialli a lamelle analoghi",
    "cambia di colore in cottura",
    "non si può essiccare"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc10",
@@ -2708,8 +2483,7 @@
    "sono tutte gialle",
    "comprendono alcune specie molto velenose",
    "sono tutte commercializzabili"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc11",
@@ -2720,8 +2494,7 @@
    "cresce spontaneo in natura",
    "viene normalmente coltivato",
    "cresce solo nell’Est europeo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc12",
@@ -2732,8 +2505,7 @@
    "il Craterellus lutescens detto volgarmente finferla",
    "il Cantharellus friesii",
    "il Cantharellus pallens"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc13",
@@ -2744,8 +2516,7 @@
    "finferla",
    "verdina",
    "cantarella"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc14",
@@ -2756,8 +2527,7 @@
    "commercializzabile",
    "velenosa se consumata dopo abbondante cottura",
    "tipicamente primaverile"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc15",
@@ -2768,8 +2538,7 @@
    "solo allo stato fresco",
    "sia freschi che comunque conservati",
    "solo freschi o essiccati"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cc16",
@@ -2780,8 +2549,7 @@
    "ve ne sono parecchie velenose",
    "vi sono almeno un paio sospette di essere tossiche",
    "non vi sono specie tossiche"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc17",
@@ -2792,8 +2560,7 @@
    "hanno colori grigio-nerastri",
    "sono tutti gialli",
    "non esistono"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc18",
@@ -2804,8 +2571,7 @@
    "tutte quelle di colore verdognolo",
    "quelle con odore molto disgustoso",
    "nessuna"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc19",
@@ -2816,8 +2582,7 @@
    "piuttosto rare",
    "che non comprendono specie tossiche",
    "abbondanti soprattutto nei prati e giardini"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cc20",
@@ -2828,8 +2593,7 @@
    "ha la carne bianca ed un gradevole odore di frutta",
    "ha la volva ed un lieve sapore amarognolo",
    "assomiglia molto alle Amanita giovani"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc21",
@@ -2840,8 +2604,7 @@
    "ha una caratteristica squamettatura nera sul gambo",
    "ha un pronunciato odore di rapa",
    "non ha nè anello nè volva"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc22",
@@ -2852,8 +2615,7 @@
    "giallo",
    "grigiastro",
    "verdognolo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc23",
@@ -2864,8 +2626,7 @@
    "anche alcuni mesi se trattato con conservanti",
    "per alcuni giorni in luoghi freschi ed aerati",
    "in contenitori a chiusura ermetica"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cc24",
@@ -2876,8 +2637,7 @@
    "crescono sulle piante viventi",
    "non vanno raccolti di giorno",
    "si possono commercializzare anche essiccati"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc25",
@@ -2888,8 +2648,7 @@
    "è completamente giallo e senza anello, volva o cortine",
    "si può confondere con l’Amanita caesarea",
    "ha il gambo ed il centro del capello macchiati di azzurrognolo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc26",
@@ -2900,8 +2659,7 @@
    "l’Agaricus bisporus delle foreste",
    "il Pleurorus ostreatus selvatico",
    "l’Omphalotus olearius"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cc27",
@@ -2912,8 +2670,7 @@
    "dalla caratteristica cresta di gallo sul cappello",
    "dalla caratteristica parte imeniale, sottostante il cappello",
    "per la caratteristica colorazione violacea dell’anello"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cc28",
@@ -2924,8 +2681,7 @@
    "dopo cottura",
    "crudo in insalata con i chiodini",
    "esclusivamente la sera"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cc29",
@@ -2936,8 +2692,7 @@
    "non devono provenire da Paesi extracomunitari",
    "vanno conservati in luoghi caldo-umidi",
    "devono essere provvisti di certificazione sanitaria"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr1",
@@ -2948,8 +2703,7 @@
    "simile ai Cantharellus bruno-nerastri",
    "tutto giallo",
    "una specie coltivata"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cr2",
@@ -2960,8 +2714,7 @@
    "non è un fungo",
    "è molto carnoso",
    "non è carnoso"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr3",
@@ -2972,8 +2725,7 @@
    "trombetta da morto",
    "corno dei crateri",
    "fungo buono a corno"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cr4",
@@ -2984,8 +2736,7 @@
    "verdastro",
    "biancastro",
    "bruno nerastro"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr5",
@@ -2996,8 +2747,7 @@
    "spugna",
    "tromba",
    "clava"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cr6",
@@ -3008,8 +2758,7 @@
    "non ha ne anello ne volva",
    "possiede due piccoli anelli",
    "è simile alle piccole Armillaria"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cr7",
@@ -3020,8 +2769,7 @@
    "giapponese",
    "commercializzabile",
    "ricca di vitamine"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cr8",
@@ -3032,8 +2780,7 @@
    "cresce spontaneo nei boschi",
    "viene coltivato",
    "cresce solo nei paesi orientali"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cr9",
@@ -3044,8 +2791,7 @@
    "in Italia viene coltivato solo nelle valli bergamasche",
    "ha un bel colore biancastro",
    "si può essiccare"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr10",
@@ -3056,8 +2802,7 @@
    "I Boleti",
    "Le Amanita",
    "alcuni Cantharellus"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr11",
@@ -3068,8 +2813,7 @@
    "il solo cappello",
    "il solo gambo",
    "l’intero carpoforo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr12",
@@ -3080,8 +2824,7 @@
    "fruttato",
    "anicino",
    "di arancio"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cr13",
@@ -3092,8 +2835,7 @@
    "carnoso",
    "del tutto cavo",
    "ingrossato alla base"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cr14",
@@ -3104,8 +2846,7 @@
    "si può confondere facilmente con specie tossiche",
    "non ha le lamelle",
    "possiede proprietà allucinogene"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cr15",
@@ -3116,8 +2857,7 @@
    "molto grande",
    "piccolissimo",
    "di media taglia"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr16",
@@ -3128,8 +2868,7 @@
    "non è un fungo ma un lichene",
    "è un Craterellus mortale",
    "è il Carterellus cornucupioides"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr17",
@@ -3140,8 +2879,7 @@
    "può diventare pericoloso se essiccato",
    "è un buon commestibile",
    "non si può congelare"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Cr18",
@@ -3152,8 +2890,7 @@
    "tipico delle steppe",
    "può crescere anche nei deserti artici",
    "si può commercializzare anche essiccato"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr19",
@@ -3164,8 +2901,7 @@
    "solo il gambo privato dell’anello",
    "il solo cappello",
    "l’intero carpoforo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cr20",
@@ -3176,8 +2912,7 @@
    "se è alterato",
    "se è stato essiccato",
    "se ha dei puntini bianchi sul cappello verde"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Hr1",
@@ -3188,8 +2923,7 @@
    "non è un fungo",
    "viene coltivato",
    "si può commercializzare"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Hr2",
@@ -3200,8 +2934,7 @@
    "i tubuli rotondi",
    "le lamelle gialle",
    "gli aculei"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Hr3",
@@ -3212,8 +2945,7 @@
    "l’anello",
    "il gambo ingrossato alla base",
    "gli aculei"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Hr4",
@@ -3224,8 +2956,7 @@
    "giallastro",
    "verdognolo",
    "marrone scuro"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Hr5",
@@ -3236,8 +2967,7 @@
    "l’anello e la volva",
    "la carne bianca",
    "le lamelle viola"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Hr6",
@@ -3248,8 +2978,7 @@
    "fanno parte anche i piccoli Boleti",
    "fa parte anche l’Hydnum repandum",
    "fanno parte tutte specie tossiche"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Hr7",
@@ -3260,8 +2989,7 @@
    "viene normalmente coltivato",
    "non si può consumare",
    "si può vendere"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Hr8",
@@ -3272,8 +3000,7 @@
    "giallastro",
    "verde olivastro",
    "bruno nerastro"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Hr9",
@@ -3284,8 +3011,7 @@
    "non ha il cappello",
    "non ha gli aculei sotto il cappello",
    "ha gli aculei ma non ha anello ne volva"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Hr10",
@@ -3296,8 +3022,7 @@
    "nerastra",
    "bianca",
    "virante al rosa"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Hr11",
@@ -3308,8 +3033,7 @@
    "leggermente amaro",
    "molto dolce",
    "pressoché nullo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Hr12",
@@ -3320,8 +3044,7 @@
    "si può consumare dopo cottura",
    "non è una specie mangereccia",
    "è una specie leggermente tossica dopo cottura"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Hr13",
@@ -3332,8 +3055,7 @@
    "assieme ad altri funghi",
    "crudo in insalata amara",
    "solo se sano e ben conservato"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Hr14",
@@ -3344,8 +3066,7 @@
    "non ha il cappello",
    "ha una evidente volva",
    "ha gli aculei"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Hr15",
@@ -3356,8 +3077,7 @@
    "serve un’apposita licenza ministeriale",
    "è necessario che sia certificato",
    "non serve nulla"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Hr16",
@@ -3368,8 +3088,7 @@
    "stecherino dorato",
    "stecherino bruno",
    "stecchino dei camosci"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Hr17",
@@ -3380,8 +3099,7 @@
    "Russula aurata",
    "Amanita caesarea",
    "Hydnum repandum"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mp1",
@@ -3392,8 +3110,7 @@
    "una mazza da tamburo nello primo stadio di crescita",
    "un piccolo tamburo napoletano",
    "una tromba"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mp2",
@@ -3404,8 +3121,7 @@
    "ha un anello mobile sul gambo",
    "non ha l’anello ma la volva",
    "ha la carne amara"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mp3",
@@ -3416,8 +3132,7 @@
    "di taglia media",
    "di taglia piccola",
    "di grande taglia"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mp4",
@@ -3428,8 +3143,7 @@
    "si può facilmente confondere con le piccole Amanita",
    "è difficilmente confondibile per via della taglia",
    "è cespitosa come l’Armillaria mellea"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mp5",
@@ -3440,8 +3154,7 @@
    "ricoperto di squame",
    "liscio",
    "molto ondulato"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mp6",
@@ -3452,8 +3165,7 @@
    "bruno nerastre",
    "molto rade",
    "bianche e fitte"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mp7",
@@ -3464,8 +3176,7 @@
    "fungo della suocera",
    "mazza di tamburo o ombrellone",
    "mazza di ercole"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mp8",
@@ -3476,8 +3187,7 @@
    "le altre Macrolepiota",
    "le Amanita mortali",
    "le Russula giganti"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mp9",
@@ -3488,8 +3198,7 @@
    "il solo gambo privato dell’anello",
    "il solo cappello privato del gambo",
    "la parte del gambo sotto l’anello"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mp10",
@@ -3500,8 +3209,7 @@
    "prevalentemente non commestibili",
    "in gran parte tossiche",
    "delle Lepiota di grossa taglia"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mp11",
@@ -3512,8 +3220,7 @@
    "rossastra",
    "bianca",
    "gialla"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mp12",
@@ -3524,8 +3231,7 @@
    "non si consuma cruda",
    "va cotta solo a vapore",
    "va fatta bollire per 30 minuti prima di cucinarla"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mp13",
@@ -3536,8 +3242,7 @@
    "la parte bulbosa del gambo come decotto",
    "l’estratto secco delle lamelle con funzione stimolante",
    "il cappello generalmente panato"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mp14",
@@ -3548,8 +3253,7 @@
    "tenero e carnoso",
    "non commestibile",
    "sempre molto liscio"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mp15",
@@ -3560,8 +3264,7 @@
    "non si può commercializzare se non da giovane",
    "cresce sulle piante di alto fusto",
    "è un fungo di grossa taglia con anello e lamelle bianche molto fitte"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mp16",
@@ -3572,8 +3275,7 @@
    "un gambo con anello ed un cappello con lamelle bianche molto fitte",
    "non ha anello ma ha le lamelle rossastre a tempo umido",
    "è un fungo di piccola taglia con anello e lamelle crema molto rade"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mp17",
@@ -3584,8 +3286,7 @@
    "perché non ha i puntini bianchi sul cappello",
    "perché è di grossa taglia e non ha la volva",
    "perchè ha la volva che è nerastra e non ha l’anello"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mp18",
@@ -3596,8 +3297,7 @@
    "con i Boleti del gruppo del satanas",
    "con Le Lepiota commestibili",
    "difficilmente con altre specie per via della taglia"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mp19",
@@ -3608,8 +3308,7 @@
    "può risultare tossica se è alterata",
    "è commestibile in tutte le sue parti",
    "va consumata solo da giovane e da cruda"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mp20",
@@ -3620,8 +3319,7 @@
    "è una specie americana",
    "è la Lepiota cristata",
    "è la Macrolepiota procera"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "RL1",
@@ -3632,8 +3330,7 @@
    "hanno la carne a consistenza fibrosa",
    "sono tutti commestibili",
    "hanno la carne a consistenza gessosa"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "RL2",
@@ -3644,8 +3341,7 @@
    "l’anello mobile",
    "le lamelle rosa",
    "la carne a consistenza gessosa"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "RL3",
@@ -3656,8 +3352,7 @@
    "non hanno né anello né volva",
    "hanno i tubuli bianchi",
    "hanno tutti la carne piccante"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "RL4",
@@ -3668,8 +3363,7 @@
    "hanno il gambo a forma di mammella che secerne latice al tocco",
    "secernano latice soprattutto alla frattura delle lamelle",
    "non presentano mai colorazioni di tonalità rossastra"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "RL5",
@@ -3680,8 +3374,7 @@
    "sono tutti commestibili",
    "sono in gran parte coltivati",
    "comprendono anche specie commercializzabili"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "RL6",
@@ -3692,8 +3385,7 @@
    "hanno il latice color carota o sangue",
    "hanno le lamelle rossastre",
    "sono tutti bianchi"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "RL7",
@@ -3704,8 +3396,7 @@
    "si devono consumare solo crudi in insalata",
    "devono essere sani e ben conservati",
    "si devono essiccare e ridurre in polvere"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "RL8",
@@ -3716,8 +3407,7 @@
    "hanno il latice piccante",
    "hanno il latice di sapore mite",
    "hanno la carne amarognola"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "RL9",
@@ -3728,8 +3418,7 @@
    "sono tutti di colore rossastro",
    "provengono da coltivazioni specifiche",
    "comprendono alcune specie commercializzabili"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "RL10",
@@ -3740,8 +3429,7 @@
    "la carne di sapore mite",
    "le lamelle gialle o rosate",
    "la carne fibrosa"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "RL11",
@@ -3752,8 +3440,7 @@
    "Russula cyanoxantha",
    "Russula foetens",
    "Russula emetica"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "RL12",
@@ -3764,8 +3451,7 @@
    "ha la volva ma non ha l’anello",
    "è una specie commestibile",
    "ha il gambo ricoperto di squame"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "RL13",
@@ -3776,8 +3462,7 @@
    "è tossica",
    "è una specie commestibile",
    "non esiste"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "RL14",
@@ -3788,8 +3473,7 @@
    "sono tutte commestibili",
    "comprendono anche specie tossiche",
    "sono da evitare se di colore verde"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "RL15",
@@ -3800,8 +3484,7 @@
    "Lactarius deterrimus",
    "Lactarius vinosus",
    "Lactarius deliciosus"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "RL16",
@@ -3812,8 +3495,7 @@
    "lamelle gialle fragili",
    "lamelle bianche lardacee al tatto",
    "lamelle bianche fragili"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Lg1",
@@ -3824,8 +3506,7 @@
    "non esistono in Italia",
    "appartengono alla famiglia delle Boletacee",
    "hanno gli aculei"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Lg2",
@@ -3836,8 +3517,7 @@
    "sono tutti commercializzabili",
    "hanno sempre un odore cimicino",
    "hanno delle lamelle larghe"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Lg3",
@@ -3848,8 +3528,7 @@
    "sono funghi misteriosi",
    "tranne un’eccezione non hanno mai la carne bianca",
    "hanno dei larghi pori sul cappello"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Lg4",
@@ -3860,8 +3539,7 @@
    "un persistente anello",
    "sovente un forte odore",
    "la carne che annerisce in cottura"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Lg5",
@@ -3872,8 +3550,7 @@
    "l’intero carpoforo",
    "il solo cappello",
    "il solo gambo"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Lg6",
@@ -3884,8 +3561,7 @@
    "molto grosso",
    "viscido",
    "ricoperto da squamette"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Lg7",
@@ -3896,8 +3572,7 @@
    "il cappello brunastro",
    "il gambo ricoperto da fini squamettature nerastre",
    "le lamelle bianche"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Lg8",
@@ -3908,8 +3583,7 @@
    "porcini neri",
    "brunelli di monte",
    "porcinelli"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Lg9",
@@ -3920,8 +3594,7 @@
    "crudi",
    "cotti",
    "sconditi"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Lg10",
@@ -3932,8 +3605,7 @@
    "generalmente cilindrico",
    "molto obeso come i porcini",
    "liscio con anello"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Lg11",
@@ -3944,8 +3616,7 @@
    "con funghi a lamelle",
    "con specie che hanno l’anello",
    "con altri funghi a tubuli"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Lg12",
@@ -3956,8 +3627,7 @@
    "hanno le lamelle da giovani",
    "hanno sempre la carne bianca",
    "hanno sempre delle squamettature nerastre sul gambo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Lg13",
@@ -3968,8 +3638,7 @@
    "ai porcini ancora giovani",
    "ai boleti del genere Leccinum e Leccinellum",
    "a tutte le boletacee immature"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Lg14",
@@ -3980,8 +3649,7 @@
    "dalla caratteristica squamettatura del gambo",
    "dal particolare tipo di anello",
    "dalle lamelle lunghe lamelle nerastre"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Lg15",
@@ -3992,8 +3660,7 @@
    "non ci sono specie tossiche",
    "sono tossici quelli che cambiano colore",
    "vi è una specie mortale"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Lg16",
@@ -4004,8 +3671,7 @@
    "basta guardare sotto il cappello",
    "bisogna annusare il gambo ed il cappello",
    "bisogna conoscere bene i caratteri di identificazione"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Lg17",
@@ -4016,8 +3682,7 @@
    "se sono cresciuti vicino al ferro arrugginito",
    "se sono in cattivo stato di conservazione",
    "se vengono conservati in frigorifero"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Sg1",
@@ -4028,8 +3693,7 @@
    "non esistono",
    "hanno le lamelle",
    "hanno i tubuli come le Boletaceae"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Sg2",
@@ -4040,8 +3704,7 @@
    "quasi del tutto assente",
    "vischioso",
    "sempre asciutto"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Sg3",
@@ -4052,8 +3715,7 @@
    "non hanno mai l’anello",
    "hanno una piccola volva",
    "possono avere l’anello"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Sg4",
@@ -4064,8 +3726,7 @@
    "tutti commestibili",
    "pericolosi perché facilmente confondibili",
    "non esistono"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Sg5",
@@ -4076,8 +3737,7 @@
    "tubuli",
    "lamelle",
    "aculei"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Sg6",
@@ -4088,8 +3748,7 @@
    "vengono coltivate",
    "sono spontanee",
    "crescono solo nell’Artico"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Sg7",
@@ -4100,8 +3759,7 @@
    "Lycoperdaceae",
    "Helvellaceae",
    "Boletaceae"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Sg8",
@@ -4112,8 +3770,7 @@
    "non esistono",
    "hanno colori vivaci",
    "hanno il gambo corto"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Sg9",
@@ -4124,8 +3781,7 @@
    "possono avere l’anello",
    "hanno il cappello squamato",
    "hanno il gambo ingrossato"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Sg10",
@@ -4136,8 +3792,7 @@
    "un fungo a forma di frutto",
    "il frutto del larice a forma di fungo",
    "un Suillus simbionte del larice"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Sg11",
@@ -4148,8 +3803,7 @@
    "un fungo cespitoso lamellato",
    "il frutto commestibile dei pini",
    "un Suillus simbionte dei pini"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Sg12",
@@ -4160,8 +3814,7 @@
    "sono specie commestibili",
    "sono Suillus tossici",
    "crescono sui pini"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Sg13",
@@ -4172,8 +3825,7 @@
    "i tubuli",
    "le lamelle",
    "la cuticola del cappello"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Sg14",
@@ -4184,8 +3836,7 @@
    "il gambo grosso e slanciato",
    "la carne bianca",
    "il cappello vischioso"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Sg15",
@@ -4196,8 +3847,7 @@
    "crudi",
    "cotti",
    "solo in salamoia"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Sg16",
@@ -4208,8 +3858,7 @@
    "quando sono alterati",
    "quando non sono stati certificati",
    "solo quando sono di importazione"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Sg17",
@@ -4220,8 +3869,7 @@
    "in luoghi freschi ed aerati",
    "chiusi in sacchetti di plastica",
    "in luoghi bui"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Sg18",
@@ -4232,8 +3880,7 @@
    "non esistono",
    "sono commestibili",
    "sono tossici"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Sg19",
@@ -4244,8 +3891,7 @@
    "l’intero carpoforo asportando la cuticola del cappello",
    "il gambo asportando l’anello e la volva",
    "il solo cappello compresa la sua cuticola"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Xb1",
@@ -4256,8 +3902,7 @@
    "un fungo con tubuli",
    "un fungo a lamelle",
    "non è un fungo edule"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Xb2",
@@ -4268,8 +3913,7 @@
    "Ramariaceae",
    "Boletaceae",
    "Poliporaceae"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Xb3",
@@ -4280,8 +3924,7 @@
    "di colore bruno castano",
    "squamettato",
    "molto vischioso"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Xb4",
@@ -4292,8 +3935,7 @@
    "ha delle larghe lamelle",
    "ha fini aculei grigiastri",
    "ha pori di color giallastro viranti al blu al tocco"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Xb5",
@@ -4304,8 +3946,7 @@
    "il cappello",
    "l’imenio",
    "il gambo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Xb6",
@@ -4316,8 +3957,7 @@
    "bianco e finemente reticolato",
    "di colore baio come il cappello",
    "molto gustoso"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Xb7",
@@ -4328,8 +3968,7 @@
    "completamente bianca",
    "leggermente virante al blu",
    "giallo uovo"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Xb8",
@@ -4340,8 +3979,7 @@
    "nei prati e nelle steppe assolate",
    "sulle rive sabbiose dei litorali marini",
    "nei boschi di aghifoglia e latifoglia"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Xb9",
@@ -4352,8 +3990,7 @@
    "con funghi a tubuli",
    "un funghi a lamelle",
    "con funghi ramificati"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Xb10",
@@ -4364,8 +4001,7 @@
    "Può parassitare il legno",
    "È una specie fungina spontanea",
    "Proviene solo da coltivazioni"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Xb11",
@@ -4376,8 +4012,7 @@
    "rosato",
    "marrone",
    "giallastro"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Xb12",
@@ -4388,8 +4023,7 @@
    "fitte lamelle giallo limone",
    "tubuli",
    "finissimi aculei di color baio"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Xb13",
@@ -4400,8 +4034,7 @@
    "con le Amanita",
    "Con i Catharellus",
    "con altre Boletacee"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Xb14",
@@ -4412,8 +4045,7 @@
    "se non è stato preventivamente congelato",
    "quando le lamelle anneriscono",
    "se non viene conservato bene"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Xb15",
@@ -4424,8 +4056,7 @@
    "l’intero fungo",
    "il solo gambo",
    "il cappello"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mg1",
@@ -4436,8 +4067,7 @@
    "sono funghi con tubuli",
    "hanno lunghe lamelle",
    "sono funghi commestibili"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mg2",
@@ -4448,8 +4078,7 @@
    "un evidente anello",
    "una pronunciata volva",
    "un cappello molto alveolato"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mg3",
@@ -4460,8 +4089,7 @@
    "solo dopo prolungata cottura",
    "anche crude",
    "solo essiccate"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mg4",
@@ -4472,8 +4100,7 @@
    "il gambo sodo",
    "una colorazione biancastra",
    "un cappello che si chiama mitra"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mg5",
@@ -4484,8 +4111,7 @@
    "tutte commestibili dopo cottura",
    "funghi coltivati",
    "specie che non appartengono al regno dei funghi"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mg6",
@@ -4496,8 +4122,7 @@
    "dell’autunno",
    "dell’estate",
    "della primavera"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mg7",
@@ -4508,8 +4133,7 @@
    "molto carnose",
    "internamente cave",
    "molto pesanti"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mg8",
@@ -4520,8 +4144,7 @@
    "dalla forma del cappello",
    "dalla lunghezza del gambo",
    "dal rapporto peso altezza"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mg9",
@@ -4532,8 +4155,7 @@
    "molto difficilmente con altri funghi",
    "molto facilmente con i Boleti",
    "con i funghi lamellati"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mg10",
@@ -4544,8 +4166,7 @@
    "carnoso",
    "vuoto",
    "pressoché inesistente"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mg11",
@@ -4556,8 +4177,7 @@
    "fungo dei monaci",
    "spagnolette",
    "spugnole"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mg12",
@@ -4568,8 +4188,7 @@
    "sono tutte coltivate",
    "crescono principalmente in primavera",
    "sono tipici funghi dell’inverno"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mg13",
@@ -4580,8 +4199,7 @@
    "se provengono da importazioni extra comunitarie",
    "se sono cresciute in prossimità di funghi velenosi",
    "se non sono state adeguatamente cotte"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mg14",
@@ -4592,8 +4210,7 @@
    "con cappello a mitra, alveolato",
    "con anello persistente e volva",
    "anche tossici"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mg15",
@@ -4604,8 +4221,7 @@
    "sono cave con il cappello diversamente alveolato",
    "hanno fini squame biancastre sul cappello",
    "si possono consumare crude"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mg16",
@@ -4616,8 +4232,7 @@
    "in barattoli al buio anche per un mese",
    "in luoghi freschi ed aerati per alcuni giorni",
    "in sacchetti di plastica con il sale ed il pepe"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mo1",
@@ -4628,8 +4243,7 @@
    "non è un fungo ma un lichene",
    "ha le lamelle bianche e rade",
    "ha tubuli"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mo2",
@@ -4640,8 +4254,7 @@
    "molto carnoso",
    "cilindrico e molto tenace senza veli",
    "fortemente ingrossato alla base"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mo3",
@@ -4652,8 +4265,7 @@
    "poco carnoso",
    "molto carnoso",
    "con colori molto vivaci"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mo4",
@@ -4664,8 +4276,7 @@
    "nocciola, crosta di pane",
    "verdognolo a tempo umido",
    "bruno nerastro"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mo5",
@@ -4676,8 +4287,7 @@
    "ha i tubuli sotto il cappello",
    "ha il gambo molto tenace",
    "ha l’anello e la volva"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mo6",
@@ -4688,8 +4298,7 @@
    "un evidente anello mobile sul gambo",
    "lamelle rosate molto fitte",
    "lamelle biancastre e spaziate"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mo7",
@@ -4700,8 +4309,7 @@
    "gambalunga",
    "gambacorta",
    "gambasecca"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mo8",
@@ -4712,8 +4320,7 @@
    "su piante vive",
    "su ceppaie morte",
    "sui prati o lungo i sentieri"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mo9",
@@ -4724,8 +4331,7 @@
    "viene normalmente coltivato",
    "cresce spontaneo nei prati",
    "viene normalmente importato dalla Cina"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mo10",
@@ -4736,8 +4342,7 @@
    "il gambo",
    "l’intero carpoforo",
    "il solo cappello"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mo11",
@@ -4748,8 +4353,7 @@
    "con funghi analoghi che crescono nei prati",
    "con le Amanita",
    "con le Macrolepiota"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mo12",
@@ -4760,8 +4364,7 @@
    "secerne latice di colore violetto chiaro",
    "ha un gambo molto tenace che non si rompe alla pressione delle dita",
    "ha la volva e l’anello"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mo13",
@@ -4772,8 +4375,7 @@
    "di uova fritte",
    "di anice",
    "gradevole"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Mo14",
@@ -4784,8 +4386,7 @@
    "nerastra",
    "biancastra",
    "verdognola"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Mo15",
@@ -4796,8 +4397,7 @@
    "molto bene da essiccato",
    "solo in congelatore",
    "in sacchetti di iuta"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Mo16",
@@ -4808,8 +4408,7 @@
    "Marasmius scorodonius",
    "Marasmius perforans",
    "Marasmius oreades"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Au1",
@@ -4820,8 +4419,7 @@
    "carpoforo a forma di lampadina",
    "carpoforo a forma di coppa rovesciata",
    "carpoforo di forma sferica"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Ca1",
@@ -4832,8 +4430,7 @@
    "lamelle fitte biancastre, carne bianca con intenso odore e sapore di farina, crescita primaverile",
    "lamelle spesse e spaziate gialle poi rosa, carne biancastra con odore di farina, crescita autunnale",
    "lamelle fitte gialline, odore terroso, crescita invernale"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ca2",
@@ -4844,8 +4441,7 @@
    "cresce in primavera, ha odore di farina, lamelle fitte e sporata bianca",
    "cresce in estate, ha odore di farina, lamelle fitte e sporata bianca",
    "cresce in autunno, ha odore di farina, lamelle fitte e sporata bianca"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ca3",
@@ -4856,8 +4452,7 @@
    "farina",
    "pesce",
    "pepe"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ca4",
@@ -4868,8 +4463,7 @@
    "praticola ma anche nei boschi",
    "in zone retrodunali",
    "lignicola"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ag1",
@@ -4880,8 +4474,7 @@
    "è un prataiolo tossico",
    "è un prataiolo commestibile",
    "è un prataiolo non commestibile"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Ag2",
@@ -4892,8 +4485,7 @@
    "cappello bianco che diventa giallo alla minima pressione, anello a doppio strato a ruota dentata, odore gradevole di anice",
    "base del gambo tagliata vira velocemente al giallo, odore sgradevole di inchiostro",
    "carne bianca tendente al rosso al taglio, odore fungino"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ag3",
@@ -4904,8 +4496,7 @@
    "ha gambo bianco con un anello doppio",
    "ha gambo bianco senza anello",
    "ha gambo bianco con anello semplice"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ag4",
@@ -4916,8 +4507,7 @@
    "ha lamelle rosa e anello semplice",
    "ha lamelle bianche e anello semplice",
    "ha lamelle bianche senza anello"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Ag5",
@@ -4928,8 +4518,7 @@
    "ha odore gradevole di mandorle amare-anisato o come di urina nel fungo maturo",
    "ha odore sgradevole di inchiostro",
    "non ha odore"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Bu1",
@@ -4940,8 +4529,7 @@
    "gambo giallo con fine reticolo giallo",
    "gambo giallo senza reticolo",
    "gambo bianco con reticolo bianco"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cu1",
@@ -4952,8 +4540,7 @@
    "cresce nei prati, il cappello è color albicocca e le lamelle sono spesse e spaziate",
    "cresce nei boschi di latifoglia, il cappello è rosso e le lamelle sono fitte",
    "è ubiquitario, il cappello è bianco e le lamelle bianche"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cu2",
@@ -4964,8 +4551,7 @@
    "cresce in primavera in boschi di latifoglia",
    "cresce in primavera in boschi di conifere",
    "cresce in estate-autunno in luoghi erbosi, al margine del bosco, in gruppi di numerosi individui"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cl1",
@@ -4976,8 +4562,7 @@
    "cespitoso, non ha un anello e una sporta marrone",
    "cespitoso, ha un anello e una sporta bianca",
    "cespitoso, ha un anello e una sporata marrone"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cl2",
@@ -4988,8 +4573,7 @@
    "cappello, gambo e lamelle",
    "cappello, gambo, volva e lamelle",
    "cappello, gambo, anello e lamelle"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cl3",
@@ -5000,8 +4584,7 @@
    "bianco",
    "rosa",
    "bruno tabacco"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Cl4",
@@ -5012,8 +4595,7 @@
    "un anello",
    "una volva",
    "né anello né volva"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cl5",
@@ -5024,8 +4606,7 @@
    "prima pallido poi bruno",
    "prima giallo poi nero",
    "arancio"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cl6",
@@ -5036,8 +4617,7 @@
    "a crescita cespitosa e lignicola",
    "a crescita terricola",
    "a crescita isolata"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Cl7",
@@ -5048,8 +4628,7 @@
    "ha il gambo slanciato, bianco, con anello bianco spesso e membranoso",
    "ha il gambo slanciato, bianco, ricoperto di squamette",
    "ha il gambo bianco, sottile e slanciato, finemente fioccoso"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Hy1",
@@ -5060,8 +4639,7 @@
    "è un fungo tossico",
    "è un fungo commestibile",
    "è un fungo non commestibile"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Hy2",
@@ -5072,8 +4650,7 @@
    "ha cappello bianco avorio, lamelle bianche lardacee al tatto, gambo bianco con base appuntita, carne bianca con odore di latte bollito",
    "ha cappello bruno olivastro glutinoso, lamelle bianche, gambo ricoperto di glutine, carne bianca senza odore",
    "ha cappello rosa ocraceo, lamelle e gambo concolori al cappello, carne bianca, odore resinoso"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Hy3",
@@ -5084,8 +4661,7 @@
    "è un fungo tossico",
    "è un fungo commestibile",
    "è un fungo non commestibile"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Hy4",
@@ -5096,8 +4672,7 @@
    "ha il cappello biancastro macchiato di rosso-vinoso, lamelle bianche macchiate di rosso-vinoso lardacee al tatto, gambo bianco tendente al colore del cappello, carne bianca senza odore distinto",
    "ha il cappello grigio-bruno, lamelle bianche e lardacee, gambo bianco, carne bianca con odore fungino",
    "ha il cappello bruno-olivastro, lamelle lardacee al tocco, gambo biancastro che tende al giallo, carne bianca sfumata di giallo senza odore distinto"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "Pl1",
@@ -5108,8 +4683,7 @@
    "primavera",
    "estate",
    "autunno-inverno"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Pl2",
@@ -5120,8 +4694,7 @@
    "gambo centrale e lamelle adnate",
    "gambo tozzo e lamelle smarginate",
    "gambo eccentrico e lamelle decorrenti"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Pl3",
@@ -5132,8 +4705,7 @@
    "cassante",
    "fibrosa",
    "tenace, elastica"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "Tr1",
@@ -5144,8 +4716,7 @@
    "è un fungo tossico",
    "è un fungo commestibile",
    "è un fungo non commestibile"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "Tr2",
@@ -5156,8 +4727,7 @@
    "cappello grigio più o meno scuro con fibrille grigio-nerastre, lamelle biancastre, gambo liscio biancastro, carne bianca con odore insignificante",
    "cappello giallo zolfo, lamelle e gambo concolori al cappello, odore e sapore di gas",
    "cappello giallo verdastro, lamelle e gambo biancastri soffusi di giallo, odore debole di farina"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C1",
@@ -5168,8 +4738,7 @@
    "la Gyromitra esculenta",
    "la Galerina marginata",
    "la Lepiota helveola"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C2",
@@ -5180,8 +4749,7 @@
    "la Clitocybe dealbata",
    "l'Amanita muscaria var. aureola",
    "l'Agaricus arvensis"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C3",
@@ -5192,8 +4760,7 @@
    "Entoloma sinuatum",
    "Russula delica",
    "Marasmius oreades"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C4",
@@ -5204,8 +4771,7 @@
    "l'Hypholoma fascicolare",
    "l'Amanita verna",
    "l'Amanita virosa"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C5",
@@ -5216,8 +4782,7 @@
    "l'Agaricus xanthoderma",
    "la Russula aurea",
    "il Suillus granulatus"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C6",
@@ -5228,8 +4793,7 @@
    "Russula virescens",
    "Lepiota cristata",
    "Tylopilus felleus"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C7",
@@ -5240,8 +4804,7 @@
    "Russula aurea",
    "Amanita caersarea",
    "Omphalotus olearius"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C8",
@@ -5252,8 +4815,7 @@
    "Tricholoma pardinum",
    "Hygrophorus penarius",
    "Pleurotus ostreatus"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C9",
@@ -5264,8 +4826,7 @@
    "Lepiota clypeolaria",
    "Agaricus arvensis",
    "Marasmius oreades"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C10",
@@ -5276,8 +4837,7 @@
    "Ramaria aurea",
    "Clitocybe geotropa",
    "Armillaria mellea"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C11",
@@ -5288,8 +4848,7 @@
    "sono facilmente digeribili",
    "vanno considerati come alimento complementare e mangiati con moderazione",
    "sono molto nutrienti"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C12",
@@ -5300,8 +4859,7 @@
    "10% di acqua",
    "20% acqua",
    "80-90% di acqua"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C13",
@@ -5312,8 +4870,7 @@
    "carboidrati 3-5% di cui alcuni non assimilabili come la chitina che costituisce le pareti cellulari dei funghi",
    "carboidrati tutti assimilabili",
    "non contengono carboidrati"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C14",
@@ -5324,8 +4881,7 @@
    "hanno alto valore energetico",
    "hanno scarso valore energetico",
    "sono molto energetici"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C15",
@@ -5336,8 +4892,7 @@
    "carboidrati e proteine non assimilabili",
    "carboidrati e proteine tutti assimilabili",
    "non sono presenti carboidrati e proteine"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C16",
@@ -5348,8 +4903,7 @@
    "è una sindrome a breve incubazione",
    "è una sindrome a lunga incubazione",
    "non è una sindrome"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C17",
@@ -5360,8 +4914,7 @@
    "hanno come organo bersaglio il fegato",
    "hanno come organo bersaglio i reni",
    "hanno come organo bersaglio le cellule muscolari"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C18",
@@ -5372,8 +4925,7 @@
    "sindrome norleucinica",
    "sindrome orellanica",
    "sindrome gastrointestinale"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C19",
@@ -5384,8 +4936,7 @@
    "Amanita muscaria",
    "Amanita pantherina",
    "Amanita muscaria e pantherina"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C20",
@@ -5396,8 +4947,7 @@
    "Sindrome gastrointestinale",
    "Sindrome rabdomiolitica",
    "Sindrome muscarinica"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C21",
@@ -5408,8 +4958,7 @@
    "Russula cyanoxantha",
    "Amanita caesarea",
    "Omphalotus olearius"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C22",
@@ -5420,8 +4969,7 @@
    "si ha danno renale",
    "si ha danno epatico",
    "si hanno allucinazioni"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C23",
@@ -5432,8 +4980,7 @@
    "sindrome gastrointestinale",
    "sindrome coprinica",
    "sindrome muscarinica"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C24",
@@ -5444,8 +4991,7 @@
    "porpore emorragiche cutanee",
    "danno renale reversibile",
    "euforia"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C25",
@@ -5456,8 +5002,7 @@
    "rimanere a casa",
    "recarsi al pronto soccorso, portare gli avanzi dei funghi consumati, fornire indicazioni utili al riconoscimento delle specie fungine consumate",
    "prendere dei farmaci analgesici"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C26",
@@ -5468,8 +5013,7 @@
    "potenzialmente benigne, tempo di latenza inferiore alle 6 ore, neurotossiche o gastroenteriche",
    "potenzialmente mortali, tempo di latenza superiore a 6 ore, citotossiche per fegato o reni",
    "potenzialmente benigne, tempo di latenza superiore a 6 ore, citotossiche per fegato o reni"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C27",
@@ -5480,8 +5024,7 @@
    "potenzialmente benigne, tempo di latenza inferiore alle 6 ore, neurotossiche o gastroenteriche",
    "potenzialmente mortali, tempo di latenza superiore a 6 ore, citotossiche per fegato o reni",
    "potenzialmente benigne, tempo di latenza superiore a 6 ore, citotossiche per fegato o reni"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C28",
@@ -5492,8 +5035,7 @@
    "bisogna portarli dal Medico di base",
    "si devono consultare i libri",
    "bisogna portarli ai Micologi delle AST"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C29",
@@ -5504,8 +5046,7 @@
    "è una figura specifica prevista dalla legge per il controllo dei funghi",
    "è il nome attribuito a chi studia i funghi",
    "è una funzione svolta dal responsabile della vendita dei funghi"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C30",
@@ -5516,8 +5057,7 @@
    "verificare se l’intossicato è in possesso di idonei documenti per la raccolta dei funghi",
    "fornire consulenza ai Sanitari al fine d’individuare la o le specie fungine coinvolte nell’intossicazione escludendo tra esse la presenza di specie tossiche/velenose mortali",
    "verifica le conoscenze micologiche dell’intossicato"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C31",
@@ -5528,8 +5068,7 @@
    "il censimento della flora micologica regionale",
    "controllo e certificazione di commestibilità dei funghi freschi spontanei raccolti dai privati cittadini e destinati al consumo diretto",
    "indicare gli ingredienti migliori da utilizzare nella realizzazione di nuove ricette"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C32",
@@ -5540,8 +5079,7 @@
    "segnalare dove crescono i funghi",
    "svolgere attività educativa ed informativa sia in campo ecologico/ambientale che micologico",
    "indicare gli ingredienti migliori da utilizzare nella realizzazione di nuove ricette"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C33",
@@ -5552,8 +5090,7 @@
    "puliti e privi di gambo",
    "maturi ed imbibiti d’acqua",
    "sani e in buono stato di conservazione, interi e puliti da terriccio, foglie e/o altri corpi estranei"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C34",
@@ -5564,8 +5101,7 @@
    "l’intero quantitativo raccolto",
    "alcune fotografie degli esemplari raccolti e del luogo di raccolta",
    "un solo esemplare per specie"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C35",
@@ -5576,8 +5112,7 @@
    "posti all’intero di un contenitore areato e coperti con un telo",
    "riposti alla rinfusa in uno scatolone",
    "posti all’interno di un sacchetto per alimenti di nylon"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C36",
@@ -5588,8 +5123,7 @@
    "svolge indagini al fine di individuare le persone coinvolti nell’episodio d’intossicazione, visiona l’eventuale materiale fungino (sia crudo che cotto) al fine del riconoscimento delle specie coinvolte, dispone accertamenti microscopici e tossicologici e comunica le proprie risultanze al personale Sanitario",
    "richiede all’intossicato copia dell’abilitazione alla raccolta (tesserino) e titolo per la raccolta (ricevuta di pagamento) in corso di validità",
    "si informa dell’esatto percorso svolto dal raccoglitore e dal quantitativo di prodotto raccolto"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "C37",
@@ -5600,8 +5134,7 @@
    "controllare il rispetto del quantitativo di funghi raccolti nel rispetto della Legge Reg.le n.18/2022",
    "verificare che i contenitori in cui sono riposti i funghi siano idonei",
    "controllo e certificazione dei funghi freschi spontanei destinati alla vendita all’ingrosso o al dettaglio presso mercati ortofrutticoli o altri esercizi e/o alla somministrazione negli esercizi di ristorazione e/o gastronomie"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C38",
@@ -5612,8 +5145,7 @@
    "prenotazione al CUP",
    "contattando telefonicamente il Dipartimento di Prevenzione e richiedendo gli orari ed i giorni di erogazione del servizio o consultando i canali informatici delle Aziende Sanitarie Territoriali",
    "l’invio di apposita domanda per mail"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C39",
@@ -5624,8 +5156,7 @@
    "attestazione di avvenuto controllo micologico",
    "il ricettario per corretto consumo dei funghi",
    "certificazione sanitaria di commestibilità dei funghi visionati e controllati"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C40",
@@ -5636,8 +5167,7 @@
    "i funghi hanno crescita lignicola",
    "sono in evidente stato di alterazione (vecchi, mollicci, liquefatti)",
    "sono cresciuti in ambienti retrodunali"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C41",
@@ -5648,8 +5178,7 @@
    "i funghi sono tutti con tubuli e pori",
    "i funghi sono stati raccolti nei pascoli montani",
    "sono posti in contenitori non rigidi (sportine plastiche) con conseguente sbriciolamento"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C42",
@@ -5660,8 +5189,7 @@
    "le Comunità Montane",
    "i Comuni",
    "le Aziende Sanitarie Territoriali"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C43",
@@ -5672,8 +5200,7 @@
    "nel comune di residenza",
    "all’Ispettorato Micologico",
    "alla Comunità Montana"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C44",
@@ -5684,8 +5211,7 @@
    "un esperto sanitario",
    "un micologo",
    "un esperto forestale"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "C45",
@@ -5696,8 +5222,7 @@
    "anche spezzati e nel più breve tempo possibile",
    "puliti e tagliati",
    "interi, sani e in buon stato di conservazione"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "C46",
@@ -5708,8 +5233,7 @@
    "è gratuito",
    "si paga solo se il quantitativo supera i 3 kg.",
    "dipende dai generi sottoposti a controllo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "D1",
@@ -5720,8 +5244,7 @@
    "non è previsto nessun limite o divieto nella raccolta",
    "sono previsti limiti e divieti ma non ci sono sanzioni a chi non li rispetta",
    "sì, sono previste sanzioni amministrative graduate sulla base della gravità dell’infrazione effettuata"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D2",
@@ -5732,8 +5255,7 @@
    "La legge regionale n.17/2021",
    "La legge regionale n.18/2022",
    "Non è prevista nessuna legge regionale"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D3",
@@ -5744,8 +5266,7 @@
    "sono svolte dalle Unioni montane e dalla Regione per il restante territorio per i territori di propria competenza",
    "sono svolte dai comuni",
    "sono svolte dalle province"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "D4",
@@ -5756,8 +5277,7 @@
    "mai",
    "nei soli giorni di silenzio venatorio",
    "nei giorni feriali"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D5",
@@ -5768,8 +5288,7 @@
    "è consentita ovunque",
    "è consentita nei boschi",
    "è consentita nei boschi e nei terreni non coltivati compatibilmente con le esigenze di salvaguardia dell'ambiente naturale e degli ecosistemi vegetali, nel rispetto dei limiti e dei divieti"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D6",
@@ -5780,8 +5299,7 @@
    "è consentita nei prati",
    "è consentita nei boschi",
    "è disciplinata dai relativi organismi di gestione"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D7",
@@ -5792,8 +5310,7 @@
    "abbiano compiuto il sedicesimo anno di età e siano in possesso dell'abilitazione alla raccolta",
    "siano in possesso del titolo per la raccolta",
    "siano in possesso di entrambe le condizioni di cui alle lettere A) e B) precedenti"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D8",
@@ -5804,8 +5321,7 @@
    "i minori di anni sedici",
    "i minori di anni sedici, purché accompagnati da persona maggiorenne in possesso dell'abilitazione e del titolo per la raccolta",
    "i maggiorenni"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D9",
@@ -5816,8 +5332,7 @@
    "non esistono esonerati dal possesso dell'abilitazione alla raccolta",
    "coloro che hanno meno di diciotto anni",
    "coloro che sono in possesso dell'attestato di micologo rilasciato ai sensi del decreto ministeriale 29 novembre 1996, n. 686"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D10",
@@ -5828,8 +5343,7 @@
    "dalla Regione e dalle Unioni montane territorialmente competenti",
    "dai comuni montani",
    "solo dalla Regione"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "D11",
@@ -5840,8 +5354,7 @@
    "la ricevuta di pagamento di euro 20,00 solo per i residenti nei comuni montani",
    "la ricevuta di pagamento di euro 20,00 per i residenti e non residenti nella Regione Marche",
    "la ricevuta di pagamento di euro 40,00"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D12",
@@ -5852,8 +5365,7 @@
    "all'Unione montana di riferimento, nel caso in cui il comune di residenza ricada nella stessa",
    "sempre alla Regione Marche",
    "è indifferente"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "D13",
@@ -5864,8 +5376,7 @@
    "sempre alla Regione Marche",
    "alla Regione, nel caso in cui la raccolta sia prevalentemente effettuata nei comuni fuori dalle Unioni montane",
    "è indifferente"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D14",
@@ -5876,8 +5387,7 @@
    "non devono fare nessun versamento",
    "devono versare una somma da euro 3,00 ad euro 70,00 oltre al titolo per la raccolta",
    "devono versare una somma di euro 20,00 solo per i residenti nei comuni montani"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D15",
@@ -5888,8 +5398,7 @@
    "con torsione in modo da conservare intatte tutte le caratteristiche morfologiche",
    "con rastrelli",
    "è indifferente come vengono raccolti"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "D16",
@@ -5900,8 +5409,7 @@
    "in contenitori di plastica",
    "in contenitori rigidi e aerati",
    "è indifferente si possono utilizzare qualsiasi contenitori"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D17",
@@ -5912,8 +5420,7 @@
    "è fissata in tre chilogrammi",
    "è fissata in quattro chilogrammi",
    "è fissata in cinque chilogrammi"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "D18",
@@ -5924,8 +5431,7 @@
    "no",
    "si sempre",
    "no se di dimensioni notevoli"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D19",
@@ -5936,8 +5442,7 @@
    "no non è vietata",
    "si sempre",
    "è vietata in caso di diametro del cappello inferiore a 3 cm"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D20",
@@ -5948,8 +5453,7 @@
    "si procede alla confisca dei funghi raccolti",
    "si applica una sanzione amministrativa pecuniaria compresa tra euro 250,00 ed euro 500,00",
    "si procede al ritiro dell’abilitazione"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D21",
@@ -5960,8 +5464,7 @@
    "nei boschi",
    "nei terreni in cui non è consentito l'accesso ai sensi dell'articolo 841 del codice civile",
    "nei boschi privati"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D22",
@@ -5972,8 +5475,7 @@
    "no è sempre consentito",
    "si",
    "solo se non sono boschi"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D23",
@@ -5984,8 +5486,7 @@
    "alla confisca dei funghi raccolti",
    "a sanzioni amministrative",
    "alla confisca dei funghi raccolti e a sanzioni amministrative"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D24",
@@ -5996,8 +5497,7 @@
    "si procede alla confisca dei funghi raccolti",
    "si applica una sanzione amministrativa compresa tra euro 80,00 ed euro 260,00.",
    "si procede al ritiro del titolo abilitativo"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D25",
@@ -6008,8 +5508,7 @@
    "si procede alla confisca dei funghi raccolti",
    "si applica una sanzione amministrativa compresa tra euro 50,00 ed euro 150,00",
    "si procede al ritiro del titolo abilitativo"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D26",
@@ -6020,8 +5519,7 @@
    "aumento della produzione micologica",
    "favorisce il proliferare di alcune specie",
    "annulla la produzione micologica per lungo tempo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D27",
@@ -6032,8 +5530,7 @@
    "kg. 1",
    "kg. 3",
    "non ci sono limiti"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D28",
@@ -6044,8 +5541,7 @@
    "nei boschi e terreni coltivati",
    "nei boschi e terreni non coltivati",
    "ad un’altezza sul livello di 500 metri"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "D29",
@@ -6056,8 +5552,7 @@
    "dopo un temporale",
    "in caso di zona infestata da vipere",
    "mai"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D30",
@@ -6068,8 +5563,7 @@
    "retina traspirante",
    "cestino chiuso di qualsiasi materiale",
    "cestino ben aerato"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D31",
@@ -6080,8 +5574,7 @@
    "nelle aree urbane a verde pubblico",
    "nei pascoli per bovini e ovini",
    "sui prati perenni"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "D32",
@@ -6092,8 +5585,7 @@
    "tagliati alla base del gambo",
    "tagliati sotto il cappello",
    "esercitando una torsione alla base del gambo"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D33",
@@ -6104,8 +5596,7 @@
    "al ritorno presso la propria abitazione",
    "al primo fontanile trovato",
    "in loco"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "D34",
@@ -6116,8 +5607,7 @@
    "si solo durante l’ora legale",
    "no, mai",
    "solo nel periodo estivo"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "E1",
@@ -6128,8 +5618,7 @@
    "non crescono",
    "non hanno mai rappresentato un pericolo per la salute umana",
    "sono comunemente presenti nell’ambiente"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "E2",
@@ -6140,8 +5629,7 @@
    "non sono utili, pertanto si possono distruggere",
    "sono utili ma solo quelli commestibili",
    "sì, sono tutti utili, la loro presenza è indice di un bosco in salute"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "E3",
@@ -6152,8 +5640,7 @@
    "è l’insieme di esseri viventi e non viventi che popolano un territorio in equilibrio tra loro",
    "è un bosco privato ecologico",
    "è un bosco integrale interdetto all’uomo"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "E4",
@@ -6164,8 +5651,7 @@
    "contengono clorofilla",
    "non contengono clorofilla",
    "hanno tutti l’anello"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "E5",
@@ -6176,8 +5662,7 @@
    "al regno vegetale",
    "al regno animale",
    "ad un regno a sé stante"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "E6",
@@ -6188,8 +5673,7 @@
    "no non è prevista",
    "si è prevista solo d parte degli enti competenti",
    "si è prevista ed è esercitata dai soggetti di cui all'articolo 11 del d.p.r. 376/1995"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "E7",
@@ -6200,8 +5684,7 @@
    "no è permesso",
    "no è permesso solo nei giardini",
    "si per non danneggiare lo strato umifero del terreno"
-  ],
-  "answer": 2
+  ]
  },
  {
   "id": "E8",
@@ -6212,8 +5695,7 @@
    "è sempre possibile",
    "è disciplinata dai relativi organismi di gestione",
    "è sempre vietata"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "E9",
@@ -6224,8 +5706,7 @@
    "è sempre consentita",
    "è consentita nei giorni di silenzio venatorio",
    "no non è consentita"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "E10",
@@ -6236,8 +5717,7 @@
    "si autoalimentano come le piante",
    "non sono in grado di costruirsi le sostanze nutritizie",
    "vivono negli ambienti acquatici"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "E11",
@@ -6248,8 +5728,7 @@
    "per mezzo di semi chiamati “spore”",
    "solo a luna calante",
    "per duplicazione come i batteri"
-  ],
-  "answer": 0
+  ]
  },
  {
   "id": "E12",
@@ -6260,8 +5739,7 @@
    "un insieme di alberi",
    "un ecosistema caratterizzato da vegetazione arborea permanente",
    "ovunque si possa tagliare legna dopo essere stati autorizzati"
-  ],
-  "answer": 1
+  ]
  },
  {
   "id": "E13",
@@ -6272,7 +5750,6 @@
    "un ecosistema caratterizzato da vegetazione erbacea",
    "un prato molto grande che si sfalcia",
    "un pascolo per bovini"
-  ],
-  "answer": 0
+  ]
  }
 ]

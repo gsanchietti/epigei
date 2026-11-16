@@ -330,3 +330,61 @@ main[data-view="practice"] .disclaimer {
   padding: 6px 10px;
   color: #4a3f37;
 }
+
+/* Kebab menu with every play mode */
+.topbar-end { display: flex; align-items: center; gap: 8px; }
+.menu { position: relative; }
+.menu-button {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  color: var(--brand);
+  background: transparent;
+}
+.menu-list {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 20;
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+.menu-list[hidden] { display: none; }
+.menu-list li { margin: 0; }
+.menu-list a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+.menu-list a svg { flex: none; width: 22px; height: 22px; color: var(--brand); }
+.menu-list a:hover, .menu-list a:focus-visible { background: #f3efe9; }
+.menu-list a:focus-visible { outline: 3px solid var(--brand); outline-offset: -3px; }
+.menu-list a[aria-current="page"] { font-weight: 700; background: #f3efe9; }
+
+/* "Provale tutte" */
+.mode-all .mode-icon { background: #7a5c99; }
+.reset-row { margin-top: 20px; text-align: center; }
+.reset-row button { margin: 0; font-size: 0.9rem; color: var(--muted); background: rgba(255, 255, 255, 0.75); }
+.stack-gap .pseudo { background: #fff; }
+/* Phones: keep the exam top bar (home, progress, timer, menu) on one line */
+main[data-view="exam"] .topbar .progress { white-space: nowrap; }
+@media (max-width: 400px) {
+  .topbar { gap: 8px; }
+  .topbar .home-button { padding-left: 0.6em; padding-right: 0.6em; }
+  .topbar-end { gap: 4px; }
+}
+@media (max-width: 340px) { main[data-view="exam"] .topbar .progress { white-space: normal; } }

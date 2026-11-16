@@ -40,6 +40,7 @@ const TOPICS = {
 
 const app = document.getElementById("app");
 let QUESTIONS = [];
+let ALL_QUESTIONS = []; // QUESTIONS without repeats, for "Provale tutte"
 let exam = null; // running or finished exam
 let SPECIES = [];
 let timerId = null;
@@ -81,17 +82,53 @@ function sameKey(q) {
   return (q.text + "|" + q.options.join("|")).toLowerCase().replace(/[^a-z0-9àèéìòù|]/g, "");
 }
 
-function pickExamQuestions() {
+// Drop repeated questions, keeping the first copy.
+function uniqueQuestions(list) {
   const seen = new Set();
-  const picked = [];
-  for (const q of shuffle(QUESTIONS)) {
+  return list.filter((q) => {
     const key = sameKey(q);
-    if (seen.has(key)) continue;
+    if (seen.has(key)) return false;
     seen.add(key);
-    picked.push(q);
-    if (picked.length === EXAM_SIZE) break;
+    return true;
+  });
+}
+
+function pickExamQuestions() {
+  return uniqueQuestions(shuffle(QUESTIONS)).slice(0, EXAM_SIZE);
+}
+
+/* ---------- "Provale tutte" progress, kept in localStorage ---------- */
+
+// { questionId: 1 (right) | 0 (wrong) } for every question already tried.
+const PROGRESS_KEY = "epigei-provale-tutte";
+let progress = {};
+
+function loadProgress() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(PROGRESS_KEY));
+    progress = saved && typeof saved === "object" && !Array.isArray(saved) ? saved : {};
+  } catch {
+    progress = {}; // storage blocked or corrupt: keep progress for this visit only
   }
-  return picked;
+}
+
+function saveProgress() {
+  try {
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+  } catch {
+    // storage blocked or full: progress stays in memory
+  }
+}
+
+function progressStats() {
+  let done = 0;
+  let right = 0;
+  for (const q of ALL_QUESTIONS) {
+    if (!(q.id in progress)) continue;
+    done++;
+    if (progress[q.id] === 1) right++;
+  }
+  return { total: ALL_QUESTIONS.length, done, right, wrong: done - right };
 }
 
 function topicLabel(q) {
@@ -106,10 +143,11 @@ function formatTime(ms) {
   return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 }
 
-function confirmDialog(text, okLabel) {
+function confirmDialog(text, okLabel, cancelLabel = "Continua il test") {
   const dialog = document.getElementById("confirm");
   document.getElementById("confirm-text").textContent = text;
   dialog.querySelector('button[value="ok"]').textContent = okLabel;
+  dialog.querySelector('button[value="cancel"]').textContent = cancelLabel;
   return new Promise((resolve) => {
     dialog.addEventListener("close", () => resolve(dialog.returnValue === "ok"), { once: true });
     dialog.returnValue = "cancel";
@@ -222,6 +260,70 @@ const EYE_SVG = `
   <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>
 </svg>`;
 
+const LIST_SVG = `
+<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M10 6h10M10 12h10M10 18h10M3 6l1.5 1.5L7 5M3 12l1.5 1.5L7 11"/><circle cx="5" cy="18" r="1.5"/>
+</svg>`;
+
+const KEBAB_SVG = `
+<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+  <circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/>
+</svg>`;
+
+// All play modes, in the order of the home page and of the kebab menu.
+const MODES = [
+  { id: "esame", cls: "mode-exam", icon: TIMER_SVG, title: "Simulazione esame",
+    text: () => `${EXAM_SIZE} domande a caso in ${EXAM_MINUTES} minuti, come il test vero.` },
+  { id: "rapido", cls: "mode-quick", icon: BOLT_SVG, title: "Allenamento rapido",
+    text: () => "Una domanda alla volta, senza tempo: vedi subito se è giusta." },
+  { id: "tutte", cls: "mode-all", icon: LIST_SVG, title: "Provale tutte",
+    text: () => {
+      const { total, done } = progressStats();
+      const intro = `Tutte le ${total} domande in ordine casuale, senza ripetizioni.`;
+      return done ? `${intro} Ne hai fatte ${done}.` : `${intro} Il browser ricorda quelle già fatte.`;
+    } },
+  { id: "foto", cls: "mode-photo", icon: CAMERA_SVG, title: "Allenamento rapido (con foto)",
+    text: () => "Le domande ufficiali sulle singole specie, con la foto del fungo." },
+  { id: "riconosci", cls: "mode-recognize", icon: EYE_SVG, title: "Riconosci il fungo",
+    text: () => `Guarda la foto e scegli la specie giusta tra tre. ${SPECIES.length} specie citate nel PDF.` },
+];
+
+function closeMenus() {
+  for (const menu of document.querySelectorAll(".menu")) {
+    menu.querySelector(".menu-list").hidden = true;
+    menu.querySelector(".menu-button").setAttribute("aria-expanded", "false");
+  }
+}
+document.addEventListener("click", (e) => { if (!e.target.closest(".menu")) closeMenus(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenus(); });
+
+// Kebab menu (⋮) in the top bar, with every play mode.
+function modesMenu() {
+  const current = location.hash.replace(/^#\/?/, "");
+  const item = (href, icon, title, active) =>
+    el("li", {},
+      el("a", { href, "aria-current": active ? "page" : null, onclick: closeMenus }, svg(icon), title));
+  const list = el("ul", { class: "menu-list", id: "modes-menu", hidden: true },
+    item("#", MINI_MUSHROOM_SVG, "Home", current === ""),
+    MODES.map((m) => item("#" + m.id, m.icon, m.title, m.id === current)));
+  const button = el("button", {
+    type: "button",
+    class: "pseudo menu-button",
+    "aria-label": "Modalità di gioco",
+    "aria-haspopup": "true",
+    "aria-expanded": "false",
+    "aria-controls": "modes-menu",
+    onclick: () => {
+      const open = list.hidden;
+      closeMenus();
+      list.hidden = !open;
+      button.setAttribute("aria-expanded", String(open));
+      if (open) list.querySelector("a").focus();
+    },
+  }, svg(KEBAB_SVG));
+  return el("div", { class: "menu" }, button, list);
+}
+
 // Reading list on the home page. Always show the source site next to each link.
 const RESOURCES = [
   ["Glossario dei funghi", "Universo alpino", "https://universoalpino.com/glossario-dei-funghi/",
@@ -279,14 +381,7 @@ function renderHome() {
           el("li", {}, el("strong", {}, `max ${MAX_ERRORS}`), " errori")),
         svg(MUSHROOM_SVG))),
     el("div", { class: "modes", role: "navigation", "aria-label": "Modalità" },
-      modeCard("#esame", "mode-exam", TIMER_SVG, "Simulazione esame",
-        `${EXAM_SIZE} domande a caso in ${EXAM_MINUTES} minuti, come il test vero.`),
-      modeCard("#rapido", "mode-quick", BOLT_SVG, "Allenamento rapido",
-        "Una domanda alla volta, senza tempo: vedi subito se è giusta."),
-      modeCard("#foto", "mode-photo", CAMERA_SVG, "Allenamento rapido (con foto)",
-        "Le domande ufficiali sulle singole specie, con la foto del fungo."),
-      modeCard("#riconosci", "mode-recognize", EYE_SVG, "Riconosci il fungo",
-        `Guarda la foto e scegli la specie giusta tra tre. ${SPECIES.length} specie citate nel PDF.`)),
+      MODES.map((m) => modeCard("#" + m.id, m.cls, m.icon, m.title, m.text()))),
     el("div", { class: "home-info" },
     el("section", { class: "how" },
       el("h2", {}, "Come funziona il test"),
@@ -364,7 +459,7 @@ function renderExam() {
     el("div", { class: "topbar" },
       homeButton("Esci"),
       progress,
-      timer),
+      el("div", { class: "topbar-end" }, timer, modesMenu())),
     ...cards,
     el("button", { type: "button", class: "block", onclick: submitExam }, "Consegna"));
 
@@ -435,7 +530,8 @@ function renderResult() {
   show(
     el("div", { class: "topbar" },
       homeButton("Home"),
-      el("span", { class: "progress" }, "Risultato")),
+      el("span", { class: "progress" }, "Risultato"),
+      modesMenu()),
     el("article", { class: "card result-head " + (passed ? "pass" : "fail") },
       el("section", {},
         exam.timeUp ? el("p", { class: "muted" }, "Tempo scaduto: il test è stato consegnato automaticamente.") : null,
@@ -510,6 +606,10 @@ function questionItem(q) {
   };
 }
 
+function textItem(q) {
+  return { ...questionItem(q), photo: null, species: null };
+}
+
 function pickOne(list) {
   return list[Math.floor(Math.random() * list.length)];
 }
@@ -537,7 +637,24 @@ const PRACTICE_MODES = {
   rapido: {
     title: "Allenamento rapido",
     nextSeconds: 3,
-    deck: () => shuffle(QUESTIONS).map(questionItem).map((it) => ({ ...it, photo: null, species: null })),
+    deck: () => shuffle(QUESTIONS).map(textItem),
+  },
+  tutte: {
+    title: "Provale tutte",
+    nextSeconds: 3,
+    // Only the questions not tried yet; an empty deck means all done.
+    deck: () => shuffle(ALL_QUESTIONS.filter((q) => !(q.id in progress))).map(textItem),
+    onAnswer: (item, right) => {
+      progress[item.key] = right ? 1 : 0;
+      saveProgress();
+    },
+    score: () => {
+      const { total, done } = progressStats();
+      return `${done} / ${total} fatte`;
+    },
+    complete: renderAllDone,
+    extra: () => el("p", { class: "reset-row" },
+      el("button", { type: "button", class: "pseudo", onclick: resetProgress }, "Azzera i progressi")),
   },
   foto: {
     title: "Allenamento rapido (con foto)",
@@ -586,13 +703,16 @@ function renderPractice(mode) {
   if (state.index >= state.deck.length) {
     state.deck = cfg.deck();
     state.index = 0;
+    state.answeredIndex = -1;
+    if (!state.deck.length) return cfg.complete(mode);
   }
   const item = state.deck[state.index];
   preload(state.deck[state.index + 1]);
 
   const score = el("span", { class: "progress" });
   const updateScore = () => {
-    score.textContent = state.done ? `${state.correct} / ${state.done} corrette` : cfg.title;
+    if (cfg.score) score.textContent = cfg.score(state);
+    else score.textContent = state.done ? `${state.correct} / ${state.done} corrette` : cfg.title;
   };
   const feedback = el("div", { class: "feedback", role: "status" });
   const revealSlot = el("div");
@@ -607,6 +727,7 @@ function renderPractice(mode) {
         state.answeredIndex = state.index;
         state.done++;
         if (right) state.correct++;
+        if (cfg.onAnswer) cfg.onAnswer(item, right);
         buttons.forEach((b, i) => {
           b.disabled = true;
           if (i === item.answer) b.classList.add("correct");
@@ -637,7 +758,8 @@ function renderPractice(mode) {
     svg(LANDSCAPE_SVG.replace('class="hero-bg"', 'class="page-bg"')),
     el("div", { class: "topbar" },
       homeButton("Home"),
-      score),
+      score,
+      modesMenu()),
     el("article", { class: "card question" + (item.photo ? " has-photo" : "") },
       item.photo ? photoFigure(item.photo) : null,
       el("section", {},
@@ -648,8 +770,48 @@ function renderPractice(mode) {
         revealSlot)),
     next,
     item.photo ? el("p", { class: "disclaimer" },
-      "Foto e indicazioni di commestibilità servono solo per lo studio: non sostituiscono il controllo dell'ispettorato micologico.") : null);
+      "Foto e indicazioni di commestibilità servono solo per lo studio: non sostituiscono il controllo dell'ispettorato micologico.") : null,
+    cfg.extra ? cfg.extra(mode) : null);
   updateScore();
+  window.scrollTo(0, 0);
+}
+
+async function resetProgress() {
+  const ok = await confirmDialog("Vuoi azzerare i progressi? Tutte le domande torneranno da fare.", "Azzera", "Annulla");
+  if (!ok) return;
+  progress = {};
+  saveProgress();
+  startPractice("tutte");
+}
+
+// Shown when every question of "Provale tutte" has been tried.
+function renderAllDone(mode) {
+  stopTimer();
+  app.dataset.view = "practice";
+  const { total, right, wrong } = progressStats();
+  const retryWrong = () => {
+    for (const id of Object.keys(progress)) if (progress[id] !== 1) delete progress[id];
+    saveProgress();
+    startPractice(mode);
+  };
+  show(
+    svg(LANDSCAPE_SVG.replace('class="hero-bg"', 'class="page-bg"')),
+    el("div", { class: "topbar" },
+      homeButton("Home"),
+      el("span", { class: "progress" }, `${total} / ${total} fatte`),
+      modesMenu()),
+    el("article", { class: "card result-head pass" },
+      el("section", {},
+        el("div", { class: "big" }, "Finite!"),
+        el("p", { class: "muted" }, `Hai provato tutte le ${total} domande.`),
+        el("div", { class: "stats" },
+          el("div", {}, el("strong", {}, String(right)), "giuste"),
+          el("div", {}, el("strong", {}, String(wrong)), "sbagliate")))),
+    el("div", { class: "stack-gap" },
+      wrong ? el("button", { type: "button", class: "block", onclick: retryWrong },
+        `Riprova le ${wrong} sbagliate`) : null,
+      el("button", { type: "button", class: wrong ? "block pseudo" : "block", onclick: resetProgress },
+        "Ricomincia da capo")));
   window.scrollTo(0, 0);
 }
 
@@ -695,9 +857,20 @@ function getJSON(url) {
   });
 }
 
-Promise.all([getJSON("questions.json"), getJSON("species.json")])
-  .then(([questions, species]) => {
-    QUESTIONS = questions;
+// questions.json has no answers; answers.json maps each id to its letter in the PDF grid.
+function withAnswers(questions, answers) {
+  return questions.map((q) => {
+    const answer = LETTERS.indexOf(answers[q.id]);
+    if (answer < 0 || answer >= q.options.length) throw new Error(`No answer for ${q.id}`);
+    return { ...q, answer };
+  });
+}
+
+Promise.all([getJSON("questions.json"), getJSON("answers.json"), getJSON("species.json")])
+  .then(([questions, answers, species]) => {
+    QUESTIONS = withAnswers(questions, answers);
+    ALL_QUESTIONS = uniqueQuestions(QUESTIONS);
+    loadProgress();
     SPECIES = species.filter((sp) => sp.photos && sp.photos.length);
     indexSpecies();
     route();
